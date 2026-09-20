@@ -1,0 +1,1448 @@
+{
+  "source": "NOAA Climate Data Online (CDO) API · GHCND daily summaries",
+  "dataset": "GHCND",
+  "startDate": "2024-01-01",
+  "endDate": "2024-12-31",
+  "cities": [
+    {
+      "city": "New York City",
+      "station": {
+        "id": "GHCND:USW00094728",
+        "name": "NEW YORK CENTRAL PARK, NY US",
+        "latitude": 40.7789,
+        "longitude": -73.9692,
+        "elevation": 42.7
+      },
+      "observations": [
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0.8
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 8.3
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": 1.7
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 7.8
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 2.8
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 8.9
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": -1
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 0.3
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 12.2
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 9.4
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0.5
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 26.7
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 11.7
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 28.3
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 15.6
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 27.2
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 17.8
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 35
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 24.4
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 27.2
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 22.8
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 20.6
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 15.6
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 26.1
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 13.9
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 3.3
+        },
+        {
+          "city": "New York City",
+          "station": {
+            "id": "GHCND:USW00094728",
+            "name": "NEW YORK CENTRAL PARK, NY US",
+            "latitude": 40.7789,
+            "longitude": -73.9692,
+            "elevation": 42.7
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": -2.7
+        }
+      ]
+    },
+    {
+      "city": "Chicago",
+      "station": {
+        "id": "GHCND:USW00094846",
+        "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+        "latitude": 41.995,
+        "longitude": -87.9336,
+        "elevation": 201.2
+      },
+      "observations": [
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": -2.7
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 12.8
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 1.7
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 7.8
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": -0.5
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 11.2
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 8.9
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 5.6
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0.3
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 23.9
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 14.4
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 24.1
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 20
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 15.6
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 23.9
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 12.2
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 13
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 31.1
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 20.6
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 24.4
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 15.6
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 21.1
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 12.8
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 12.2
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 3.9
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": -2.7
+        },
+        {
+          "city": "Chicago",
+          "station": {
+            "id": "GHCND:USW00094846",
+            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
+            "latitude": 41.995,
+            "longitude": -87.9336,
+            "elevation": 201.2
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": -9.9
+        }
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "station": {
+        "id": "GHCND:USW00023272",
+        "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+        "latitude": 37.6197,
+        "longitude": -122.365,
+        "elevation": 4.6
+      },
+      "observations": [
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 15
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": 8.9
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 27.2
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 15.6
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 9.4
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 29.7
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 13.9
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": 9.4
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-04-30",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-04-30",
+          "datatype": "TMAX",
+          "value": 17.2
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-04-30",
+          "datatype": "TMIN",
+          "value": 8.9
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 20
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 9.4
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 16.7
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 11.1
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 23.3
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 12.8
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 20.6
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 12.2
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 20.6
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 13.9
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 34.4
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 17.8
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0.5
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 17.8
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 10
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 17.8
+        },
+        {
+          "city": "San Francisco",
+          "station": {
+            "id": "GHCND:USW00023272",
+            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
+            "latitude": 37.6197,
+            "longitude": -122.365,
+            "elevation": 4.6
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": 11.1
+        }
+      ]
+    }
+  ]
+}
