@@ -1,5 +1,6 @@
+import { existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { dateRange, cities, source, type RawDownload, type RawObservation, type Station, writeJson } from "./lib.js";
+import { dateRange, cities, source, type RawDownload, type RawObservation, type Station, readJson, writeJson } from "./lib.js";
 
 const token = process.env.NOAA_CDO_TOKEN;
 if (!token) throw new Error("NOAA_CDO_TOKEN is required for a live download. Use the tracked fixture for offline work.");
@@ -13,11 +14,18 @@ async function getJson<T>(url: string, attempt = 0): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+async function cachedJson<T>(cacheFile: string, url: string): Promise<T> {
+  if (existsSync(resolve(cacheFile))) return readJson<T>(resolve(cacheFile));
+  const value = await getJson<T>(url);
+  await writeJson(resolve(cacheFile), value);
+  return value;
+}
+
 async function pagedData(stationId: string): Promise<RawObservation[]> {
   const rows: RawObservation[] = []; let offset = 1; const limit = 1000;
   while (true) {
     const params = new URLSearchParams({ datasetid: "GHCND", stationid: stationId, startdate: dateRange.start, enddate: dateRange.end, datatypeid: "TMAX,TMIN,PRCP", units: "metric", limit: String(limit), offset: String(offset) });
-    const page = await getJson<{ results?: Array<{ date: string; datatype: string; value: number }> }>(`${base}/data?${params}`);
+    const page = await cachedJson<{ results?: Array<{ date: string; datatype: string; value: number }> }>(`data/.cache/noaa/${stationId.replaceAll(":", "_")}_${offset}.json`, `${base}/data?${params}`);
     const results = page.results ?? []; rows.push(...results.map((r) => ({ city: "", station: {} as Station, date: r.date.slice(0, 10), datatype: r.datatype, value: r.value })));
     if (results.length < limit) break; offset += limit; await new Promise((resolve) => setTimeout(resolve, 250));
   }
@@ -27,7 +35,7 @@ async function pagedData(stationId: string): Promise<RawObservation[]> {
 const output: RawDownload = { source, dataset: "GHCND", startDate: dateRange.start, endDate: dateRange.end, cities: [] };
 for (const city of cities) {
   const params = new URLSearchParams({ datasetid: "GHCND", locationid: city.locationId, limit: "1000", sortfield: "datacoverage", sortorder: "desc" });
-  const stationResponse = await getJson<{ results?: Array<{ id: string; name: string; latitude: number; longitude: number; elevation?: number; datacoverage?: number }> }>(`${base}/stations?${params}`);
+  const stationResponse = await cachedJson<{ results?: Array<{ id: string; name: string; latitude: number; longitude: number; elevation?: number; datacoverage?: number }> }>(`data/.cache/noaa/stations_${city.name.toLowerCase().replaceAll(" ", "_")}.json`, `${base}/stations?${params}`);
   const stationRow = stationResponse.results?.[0]; if (!stationRow) throw new Error(`No GHCND station found for ${city.name}`);
   const station: Station = { ...stationRow };
   const observations = await pagedData(station.id);
