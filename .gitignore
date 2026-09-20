@@ -5,4 +5,5 @@ dist
 !.env.example
 data/noaa-raw.json
 data/.download
+data/.cache
 *.log
