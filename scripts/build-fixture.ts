@@ -21,7 +21,7 @@ for (const input of inputs) {
     for (const datatype of wanted) {
       const raw = cells[index[datatype]]; if (!raw || raw === "-9999") continue;
       const month = date.slice(0, 7); const key = `${month}:${datatype}`; if (seen.has(key)) continue;
-      seen.add(key); observations.push({ city: input.city, station, date, datatype, value: Number(raw) / 10 });
+      seen.add(key); observations.push({ city: input.city, station, date, datatype, value: Number(raw) / 10, rawValue: Number(raw), rawUnit: datatype === "PRCP" ? "tenths of mm" : "tenths of °C" });
     }
   }
   output.cities.push({ city: input.city, station, observations });

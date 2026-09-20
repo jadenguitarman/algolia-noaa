@@ -25,7 +25,9 @@
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0.8
+          "value": 0.8,
+          "rawValue": 8,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -38,7 +40,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 8.3
+          "value": 8.3,
+          "rawValue": 83,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -51,7 +55,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": 1.7
+          "value": 1.7,
+          "rawValue": 17,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -64,7 +70,9 @@
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -77,7 +85,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 7.8
+          "value": 7.8,
+          "rawValue": 78,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -90,7 +100,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 2.8
+          "value": 2.8,
+          "rawValue": 28,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -103,7 +115,9 @@
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -116,7 +130,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 8.9
+          "value": 8.9,
+          "rawValue": 89,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -129,7 +145,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": -1
+          "value": -1,
+          "rawValue": -10,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -142,7 +160,9 @@
           },
           "date": "2024-04-01",
           "datatype": "PRCP",
-          "value": 0.3
+          "value": 0.3,
+          "rawValue": 3,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -155,7 +175,9 @@
           },
           "date": "2024-04-01",
           "datatype": "TMAX",
-          "value": 12.2
+          "value": 12.2,
+          "rawValue": 122,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -168,7 +190,9 @@
           },
           "date": "2024-04-01",
           "datatype": "TMIN",
-          "value": 9.4
+          "value": 9.4,
+          "rawValue": 94,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -181,7 +205,9 @@
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0.5
+          "value": 0.5,
+          "rawValue": 5,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -194,7 +220,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 26.7
+          "value": 26.7,
+          "rawValue": 267,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -207,7 +235,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 11.7
+          "value": 11.7,
+          "rawValue": 117,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -220,7 +250,9 @@
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -233,7 +265,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 28.3
+          "value": 28.3,
+          "rawValue": 283,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -246,7 +280,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 15.6
+          "value": 15.6,
+          "rawValue": 156,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -259,7 +295,9 @@
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -272,7 +310,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 27.2
+          "value": 27.2,
+          "rawValue": 272,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -285,7 +325,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 17.8
+          "value": 17.8,
+          "rawValue": 178,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -298,7 +340,9 @@
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -311,7 +355,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 35
+          "value": 35,
+          "rawValue": 350,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -324,7 +370,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 24.4
+          "value": 24.4,
+          "rawValue": 244,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -337,7 +385,9 @@
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -350,7 +400,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 27.2
+          "value": 27.2,
+          "rawValue": 272,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -363,7 +415,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 22.8
+          "value": 22.8,
+          "rawValue": 228,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -376,7 +430,9 @@
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -389,7 +445,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 20.6
+          "value": 20.6,
+          "rawValue": 206,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -402,7 +460,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 15.6
+          "value": 15.6,
+          "rawValue": 156,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -415,7 +475,9 @@
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -428,7 +490,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 26.1
+          "value": 26.1,
+          "rawValue": 261,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -441,7 +505,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 13.9
+          "value": 13.9,
+          "rawValue": 139,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -454,7 +520,9 @@
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "New York City",
@@ -467,7 +535,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": 3.3
+          "value": 3.3,
+          "rawValue": 33,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "New York City",
@@ -480,7 +550,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": -2.7
+          "value": -2.7,
+          "rawValue": -27,
+          "rawUnit": "tenths of °C"
         }
       ]
     },
@@ -505,7 +577,9 @@
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -518,7 +592,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -531,7 +607,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": -2.7
+          "value": -2.7,
+          "rawValue": -27,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -544,7 +622,9 @@
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -557,7 +637,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 12.8
+          "value": 12.8,
+          "rawValue": 128,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -570,7 +652,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 1.7
+          "value": 1.7,
+          "rawValue": 17,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -583,7 +667,9 @@
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -596,7 +682,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 7.8
+          "value": 7.8,
+          "rawValue": 78,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -609,7 +697,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": -0.5
+          "value": -0.5,
+          "rawValue": -5,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -622,7 +712,9 @@
           },
           "date": "2024-04-01",
           "datatype": "PRCP",
-          "value": 11.2
+          "value": 11.2,
+          "rawValue": 112,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -635,7 +727,9 @@
           },
           "date": "2024-04-01",
           "datatype": "TMAX",
-          "value": 8.9
+          "value": 8.9,
+          "rawValue": 89,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -648,7 +742,9 @@
           },
           "date": "2024-04-01",
           "datatype": "TMIN",
-          "value": 5.6
+          "value": 5.6,
+          "rawValue": 56,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -661,7 +757,9 @@
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0.3
+          "value": 0.3,
+          "rawValue": 3,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -674,7 +772,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 23.9
+          "value": 23.9,
+          "rawValue": 239,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -687,7 +787,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 14.4
+          "value": 14.4,
+          "rawValue": 144,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -700,7 +802,9 @@
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 24.1
+          "value": 24.1,
+          "rawValue": 241,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -713,7 +817,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 20
+          "value": 20,
+          "rawValue": 200,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -726,7 +832,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 15.6
+          "value": 15.6,
+          "rawValue": 156,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -739,7 +847,9 @@
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -752,7 +862,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 23.9
+          "value": 23.9,
+          "rawValue": 239,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -765,7 +877,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 12.2
+          "value": 12.2,
+          "rawValue": 122,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -778,7 +892,9 @@
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 13
+          "value": 13,
+          "rawValue": 130,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -791,7 +907,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 31.1
+          "value": 31.1,
+          "rawValue": 311,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -804,7 +922,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 20.6
+          "value": 20.6,
+          "rawValue": 206,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -817,7 +937,9 @@
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -830,7 +952,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 24.4
+          "value": 24.4,
+          "rawValue": 244,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -843,7 +967,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 15.6
+          "value": 15.6,
+          "rawValue": 156,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -856,7 +982,9 @@
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -869,7 +997,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 21.1
+          "value": 21.1,
+          "rawValue": 211,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -882,7 +1012,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 12.8
+          "value": 12.8,
+          "rawValue": 128,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -895,7 +1027,9 @@
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -908,7 +1042,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 12.2
+          "value": 12.2,
+          "rawValue": 122,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -921,7 +1057,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 3.9
+          "value": 3.9,
+          "rawValue": 39,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -934,7 +1072,9 @@
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "Chicago",
@@ -947,7 +1087,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": -2.7
+          "value": -2.7,
+          "rawValue": -27,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "Chicago",
@@ -960,7 +1102,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": -9.9
+          "value": -9.9,
+          "rawValue": -99,
+          "rawUnit": "tenths of °C"
         }
       ]
     },
@@ -985,7 +1129,9 @@
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -998,7 +1144,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 15
+          "value": 15,
+          "rawValue": 150,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1011,7 +1159,9 @@
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": 8.9
+          "value": 8.9,
+          "rawValue": 89,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1024,7 +1174,9 @@
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 27.2
+          "value": 27.2,
+          "rawValue": 272,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1037,7 +1189,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 15.6
+          "value": 15.6,
+          "rawValue": 156,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1050,7 +1204,9 @@
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 9.4
+          "value": 9.4,
+          "rawValue": 94,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1063,7 +1219,9 @@
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 29.7
+          "value": 29.7,
+          "rawValue": 297,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1076,7 +1234,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 13.9
+          "value": 13.9,
+          "rawValue": 139,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1089,7 +1249,9 @@
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": 9.4
+          "value": 9.4,
+          "rawValue": 94,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1102,7 +1264,9 @@
           },
           "date": "2024-04-30",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1115,7 +1279,9 @@
           },
           "date": "2024-04-30",
           "datatype": "TMAX",
-          "value": 17.2
+          "value": 17.2,
+          "rawValue": 172,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1128,7 +1294,9 @@
           },
           "date": "2024-04-30",
           "datatype": "TMIN",
-          "value": 8.9
+          "value": 8.9,
+          "rawValue": 89,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1141,7 +1309,9 @@
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1154,7 +1324,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 20
+          "value": 20,
+          "rawValue": 200,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1167,7 +1339,9 @@
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 9.4
+          "value": 9.4,
+          "rawValue": 94,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1180,7 +1354,9 @@
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1193,7 +1369,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 16.7
+          "value": 16.7,
+          "rawValue": 167,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1206,7 +1384,9 @@
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 11.1
+          "value": 11.1,
+          "rawValue": 111,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1219,7 +1399,9 @@
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1232,7 +1414,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 23.3
+          "value": 23.3,
+          "rawValue": 233,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1245,7 +1429,9 @@
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 12.8
+          "value": 12.8,
+          "rawValue": 128,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1258,7 +1444,9 @@
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1271,7 +1459,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 20.6
+          "value": 20.6,
+          "rawValue": 206,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1284,7 +1474,9 @@
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 12.2
+          "value": 12.2,
+          "rawValue": 122,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1297,7 +1489,9 @@
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1310,7 +1504,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 20.6
+          "value": 20.6,
+          "rawValue": 206,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1323,7 +1519,9 @@
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 13.9
+          "value": 13.9,
+          "rawValue": 139,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1336,7 +1534,9 @@
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1349,7 +1549,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 34.4
+          "value": 34.4,
+          "rawValue": 344,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1362,7 +1564,9 @@
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 17.8
+          "value": 17.8,
+          "rawValue": 178,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1375,7 +1579,9 @@
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0.5
+          "value": 0.5,
+          "rawValue": 5,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1388,7 +1594,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 17.8
+          "value": 17.8,
+          "rawValue": 178,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1401,7 +1609,9 @@
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 10
+          "value": 10,
+          "rawValue": 100,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1414,7 +1624,9 @@
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0
+          "value": 0,
+          "rawValue": 0,
+          "rawUnit": "tenths of mm"
         },
         {
           "city": "San Francisco",
@@ -1427,7 +1639,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": 17.8
+          "value": 17.8,
+          "rawValue": 178,
+          "rawUnit": "tenths of °C"
         },
         {
           "city": "San Francisco",
@@ -1440,7 +1654,9 @@
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": 11.1
+          "value": 11.1,
+          "rawValue": 111,
+          "rawUnit": "tenths of °C"
         }
       ]
     }
