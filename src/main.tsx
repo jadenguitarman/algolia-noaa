@@ -38,7 +38,6 @@ function CoveragePanel() {
         <div><dt>Dates</dt><dd>{coverage.dates.replace(" → ", " to ")}</dd></div>
         <div><dt>Measures</dt><dd>{coverage.metrics.join(" / ")}</dd></div>
       </dl>
-      <p className="source">{coverage.source}</p>
     </aside>
   );
 }
@@ -111,19 +110,13 @@ function ExampleQueryBridge() {
 function App() {
   return (
     <main className="page-shell">
-      <nav className="topbar" aria-label="Primary">
-        <span>NOAA Weather Expert</span>
-        <span>Historical observations / 2024</span>
-      </nav>
       <div className="demo-layout">
         <section className="explanation" aria-labelledby="page-heading">
           <div className="explanation__copy">
             <h1 id="page-heading">Historical weather observations, explained.</h1>
             <p className="lede">This demo uses Algolia Agent Studio to answer questions about daily NOAA records from three US cities.</p>
-            <p className="boundary">Historical observations only. Not a live forecast.</p>
           </div>
           <CoveragePanel />
-          <p className="explanation__footer">Use a specific place, date range, and metric. If the record cannot answer, the expert will say so.</p>
         </section>
         <section className="demo-panel" aria-labelledby="ask-heading">
           <div className="section-heading">
@@ -139,7 +132,7 @@ function App() {
           <DemoChat />
         </section>
       </div>
-      <footer><span>Source: NOAA Climate Data Online, GHCND daily summaries.</span><span>US units normalized where applicable.</span></footer>
+      <footer>Source: NOAA Climate Data Online, GHCND daily summaries. US units normalized where applicable.</footer>
     </main>
   );
 }
