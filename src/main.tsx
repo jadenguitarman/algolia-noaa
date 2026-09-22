@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Chat, ChatInlineLayout, InstantSearch, SearchBox, useSearchBox } from "react-instantsearch";
+import { Chat, ChatInlineLayout, InstantSearch, useSearchBox } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
 import "instantsearch.css/components/chat.css";
@@ -86,23 +86,12 @@ function AuthenticatedChat() {
     <InstantSearch searchClient={searchClient!} indexName={indexName}>
       <div className="chat-shell">
         <ExampleQueryBridge />
-        <div className="chat-shell__bar">
-          <div>
-            <span className="chat-shell__label">Ask a question</span>
-            <p>Ask about a place, date range, and metric.</p>
-          </div>
-          <span className="chat-shell__status">Indexed NOAA data</span>
-        </div>
-        <SearchBox placeholder="Search or ask a historical question…" aiMode />
         <Chat
           agentId={agentId!}
           layoutComponent={ChatInlineLayout}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
           context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
           messagesProps={{ emptyComponent: ChatEmptyState }}
-          translations={{
-            prompt: { disclaimer: "Answers use indexed NOAA observations only; they are not forecasts." },
-          }}
         />
       </div>
     </InstantSearch>
@@ -130,12 +119,8 @@ function App() {
           </div>
           <CoveragePanel />
         </section>
-        <section className="demo-panel" aria-labelledby="ask-heading">
-          <div className="section-heading">
-            <h2 id="ask-heading">Ask the demo.</h2>
-            <p>Try one of these questions or write your own.</p>
-          </div>
-          <div className="question-grid" aria-label="Example questions">
+        <section className="demo-panel" aria-label="NOAA Weather Expert demo">
+          <div className="question-grid" aria-label="Suggested questions">
             {questions.map((question) => <button key={question.text} type="button" onClick={() => window.dispatchEvent(new CustomEvent("noaa-example", { detail: question.text }))}>
               <span className="question-text">{question.text}</span>
               <span className="question-arrow" aria-hidden="true">↗</span>
