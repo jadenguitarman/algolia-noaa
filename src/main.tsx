@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Chat, InstantSearch, SearchBox, useSearchBox } from "react-instantsearch";
+import { Chat, ChatInlineLayout, InstantSearch, SearchBox, useSearchBox } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
 import "instantsearch.css/components/chat.css";
@@ -96,6 +96,7 @@ function AuthenticatedChat() {
         <SearchBox placeholder="Search or ask a historical question…" aiMode />
         <Chat
           agentId={agentId!}
+          layoutComponent={ChatInlineLayout}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
           context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
           messagesProps={{ emptyComponent: ChatEmptyState }}
