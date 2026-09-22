@@ -2,13 +2,14 @@ import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { dateRange, cities, source, type RawDownload, type RawObservation, type Station, readJson, writeJson } from "./lib.js";
 
-const token = process.env.NOAA_CDO_TOKEN;
-if (!token) throw new Error("NOAA_CDO_TOKEN is required for a live download. Use the tracked fixture for offline work.");
+const token = process.env.NOAA_CDO_TOKEN || "";
+const userAgent = process.env.NOAA_USER_AGENT || "algolia-noaa-weather-demo/1.0 (https://github.com/jadenguitarman/algolia-noaa)";
+if (!token) throw new Error("NOAA_CDO_TOKEN is required by the NOAA CDO v2 API. NOAA_USER_AGENT is also sent with every request.");
 const base = "https://www.ncei.noaa.gov/cdo-web/api/v2";
 
 async function getJson<T>(url: string, attempt = 0): Promise<T> {
-  if (!token) throw new Error("NOAA_CDO_TOKEN is required.");
-  const response = await fetch(url, { headers: { token, "user-agent": "algolia-noaa-demo/1.0" }, signal: AbortSignal.timeout(30_000) });
+  const headers: Record<string, string> = { "user-agent": userAgent, token };
+  const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) });
   if ((response.status === 429 || response.status >= 500) && attempt < 4) { await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** attempt)); return getJson<T>(url, attempt + 1); }
   if (!response.ok) throw new Error(`NOAA request failed (${response.status}): ${await response.text()}`);
   return response.json() as Promise<T>;

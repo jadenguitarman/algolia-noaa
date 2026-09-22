@@ -1,18 +1,49 @@
-import { randomUUID } from "node:crypto";
+import { createHmac, randomUUID } from "node:crypto";
 
 const appId = process.env.ALGOLIA_APP_ID || process.env.VITE_ALGOLIA_APP_ID;
 const apiKey = process.env.VITE_ALGOLIA_SEARCH_API_KEY;
 const agentId = process.env.VITE_ALGOLIA_AGENT_ID;
+const agentUserAuthKey = process.env.ALGOLIA_AGENT_USER_AUTH_KEY;
+const agentUserAuthKeyId = process.env.ALGOLIA_AGENT_USER_AUTH_KEY_ID;
+const agentUserId = process.env.ALGOLIA_AGENT_USER_ID || "noaa-demo-user";
+const adminKey = process.env.ALGOLIA_ADMIN_API_KEY;
 if (!appId || !apiKey || !agentId) throw new Error("ALGOLIA_APP_ID (or VITE_ALGOLIA_APP_ID), VITE_ALGOLIA_SEARCH_API_KEY, and VITE_ALGOLIA_AGENT_ID are required.");
-const endpoint = `https://${appId}.algolia.net/agent-studio/1/agents/${agentId}/completions?stream=false&compatibilityMode=ai-sdk-5`;
+const requiredAppId = appId;
+const endpoint = `https://${requiredAppId}.algolia.net/agent-studio/1/agents/${agentId}/completions?stream=false&compatibilityMode=ai-sdk-5`;
+
+function base64Url(value: string | Uint8Array) { return Buffer.from(value).toString("base64url"); }
+
+async function resolveAgentUserAuthKeyId() {
+  if (!agentUserAuthKey) return undefined;
+  if (agentUserAuthKeyId) return agentUserAuthKeyId;
+  if (!adminKey) throw new Error("ALGOLIA_ADMIN_API_KEY is required to resolve ALGOLIA_AGENT_USER_AUTH_KEY_ID locally.");
+  const response = await fetch(`https://${requiredAppId}.algolia.net/agent-studio/1/secret-keys`, { headers: { "x-algolia-application-id": requiredAppId, "x-algolia-api-key": adminKey } });
+  if (!response.ok) throw new Error(`Could not list Agent Studio secret-key metadata (${response.status}).`);
+  const body = await response.json() as { data?: Array<{ id: string; value?: string }> };
+  const matchingKey = body.data?.find((key) => key.value === agentUserAuthKey);
+  if (!matchingKey) throw new Error("ALGOLIA_AGENT_USER_AUTH_KEY was not found in this Algolia application's Agent Studio secret keys.");
+  return matchingKey.id;
+}
+
+async function createSecureUserToken() {
+  if (!agentUserAuthKey) return undefined;
+  const keyId = await resolveAgentUserAuthKeyId();
+  const header = base64Url(JSON.stringify({ alg: "HS256", typ: "JWT", kid: keyId }));
+  const payload = base64Url(JSON.stringify({ sub: agentUserId, exp: Math.floor(Date.now() / 1000) + 24 * 60 * 60 }));
+  const signature = createHmac("sha256", agentUserAuthKey).update(`${header}.${payload}`).digest("base64url");
+  return `${header}.${payload}.${signature}`;
+}
+
+const secureUserToken = await createSecureUserToken();
 const questions = [
   { prompt: "What was the average maximum temperature in New York in July 2024?", mustMention: ["New York", "July", "2024"] },
   { prompt: "Which city had the most precipitation in March 2024?", mustMention: ["March", "2024", "precipitation"] },
   { prompt: "Compare minimum temperatures in Chicago and San Francisco during January 2024.", mustMention: ["Chicago", "San Francisco", "January", "2024"] },
-  { prompt: "What was the weather in Boston in 2024?", mustMention: ["cannot", "available"] },
+  { prompt: "What was the weather in Boston in 2024?", mustMention: ["can't", "Boston", "indexed"] },
 ];
 for (const test of questions) {
-  const response = await fetch(endpoint, { method: "POST", headers: { "content-type": "application/json", "x-algolia-application-id": appId, "x-algolia-api-key": apiKey }, body: JSON.stringify({ id: `alg_cnv_${randomUUID()}`, messages: [{ id: `alg_msg_${randomUUID()}`, role: "user", content: test.prompt }] }) });
+  const messageId = `alg_msg_${randomUUID()}`;
+  const response = await fetch(endpoint, { method: "POST", headers: { "content-type": "application/json", "x-algolia-application-id": requiredAppId, "x-algolia-api-key": apiKey, ...(secureUserToken ? { "x-algolia-secure-user-token": secureUserToken } : {}) }, body: JSON.stringify({ id: `alg_cnv_${randomUUID()}`, messageId, messages: [{ id: messageId, role: "user", parts: [{ type: "text", text: test.prompt }] }] }) });
   const body = await response.text(); if (!response.ok) throw new Error(`Agent request failed (${response.status}): ${body.slice(0, 500)}`);
   const lower = body.toLowerCase(); const misses = test.mustMention.filter((term) => !lower.includes(term.toLowerCase()));
   console.log(`${misses.length ? "FAIL" : "PASS"} ${test.prompt}${misses.length ? ` — missing: ${misses.join(", ")}` : ""}`);

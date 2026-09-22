@@ -45,14 +45,42 @@ function CoveragePanel() {
 
 function DemoChat() {
   if (!searchClient || !agentId) return <ConfigurationNotice />;
+  return <AuthenticatedChat />;
+}
+
+function AuthenticatedChat() {
+  const [userToken, setUserToken] = React.useState<string | null>(null);
+  const [authError, setAuthError] = React.useState<string | null>(null);
+
+  React.useEffect(() => {
+    let cancelled = false;
+    fetch("/api/agent-user-token", { headers: { Accept: "application/json" } })
+      .then(async (response) => {
+        const body = (await response.json().catch(() => ({}))) as { userToken?: string; error?: string };
+        if (!response.ok || !body.userToken) throw new Error(body.error || "Could not connect to the agent");
+        if (!cancelled) setUserToken(body.userToken);
+      })
+      .catch((error: unknown) => {
+        if (!cancelled) setAuthError(error instanceof Error ? error.message : "Could not connect to the agent");
+      });
+    return () => { cancelled = true; };
+  }, []);
+
+  if (authError) {
+    return <div className="notice" role="alert"><strong>Chat connection unavailable.</strong> {authError}</div>;
+  }
+  if (!userToken) {
+    return <div className="notice" role="status">Connecting to NOAA Weather Expert…</div>;
+  }
+
   return (
-    <InstantSearch searchClient={searchClient} indexName={indexName}>
+    <InstantSearch searchClient={searchClient!} indexName={indexName}>
       <div className="chat-shell">
         <ExampleQueryBridge />
         <SearchBox placeholder="Search or ask a historical question…" aiMode />
         <Chat
-          agentId={agentId}
-          resume
+          agentId={agentId!}
+          requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
           context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
           translations={{
             prompt: { disclaimer: "Answers use indexed NOAA observations only; they are not forecasts." },
