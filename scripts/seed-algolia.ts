@@ -4,8 +4,8 @@ import { normalize, readJson, type NormalizedRecord, type RawDownload } from "./
 
 const appId = process.env.ALGOLIA_APP_ID;
 const adminKey = process.env.ALGOLIA_ADMIN_API_KEY;
-const indexName = process.env.ALGOLIA_INDEX_NAME || "noaa_weather_demo";
-if (!appId || !adminKey) throw new Error("ALGOLIA_APP_ID and ALGOLIA_ADMIN_API_KEY are required. These are server/local-only values.");
+const indexName = process.env.VITE_ALGOLIA_INDEX_NAME ?? "";
+if (!appId || !adminKey || !indexName) throw new Error("ALGOLIA_APP_ID, ALGOLIA_ADMIN_API_KEY, and VITE_ALGOLIA_INDEX_NAME are required. The seeder uses the same VITE_ALGOLIA_INDEX_NAME as the browser demo.");
 const headers = { "content-type": "application/json", "x-algolia-application-id": appId, "x-algolia-api-key": adminKey };
 const base = `https://${appId}-dsn.algolia.net`;
 const records = existsSync(resolve("data/noaa-normalized.json")) ? await readJson<NormalizedRecord[]>(resolve("data/noaa-normalized.json")) : normalize(await readJson<RawDownload>(resolve("data/noaa-fixture.json")));
