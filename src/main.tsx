@@ -31,29 +31,11 @@ function ConfigurationNotice() {
 function CoveragePanel() {
   return (
     <aside className="coverage-card" aria-label="Data coverage">
-      <div className="coverage-card__topline">
-        <span>Archive brief</span>
-        <span className="coverage-card__year">2024</span>
-      </div>
-      <h2>What the expert can see</h2>
-      <p className="coverage-card__intro">A focused slice of the NOAA daily record, prepared for clear comparisons.</p>
-      <div className="coverage-stats">
-        <div className="coverage-stat">
-          <strong>{coverage.cities.length}</strong>
-          <span>cities</span>
-        </div>
-        <div className="coverage-stat">
-          <strong>366</strong>
-          <span>days</span>
-        </div>
-        <div className="coverage-stat">
-          <strong>{coverage.metrics.length}</strong>
-          <span>metrics</span>
-        </div>
-      </div>
+      <h2>Data coverage</h2>
+      <p className="coverage-card__intro">A small, focused slice of the NOAA daily record for this demo.</p>
       <dl className="coverage-list">
         <div><dt>Places</dt><dd>{coverage.cities.join(" / ")}</dd></div>
-        <div><dt>Window</dt><dd>{coverage.dates.replace(" → ", " to ")}</dd></div>
+        <div><dt>Dates</dt><dd>{coverage.dates.replace(" → ", " to ")}</dd></div>
         <div><dt>Measures</dt><dd>{coverage.metrics.join(" / ")}</dd></div>
       </dl>
       <p className="source">{coverage.source}</p>
@@ -97,10 +79,10 @@ function AuthenticatedChat() {
         <ExampleQueryBridge />
         <div className="chat-shell__bar">
           <div>
-            <span className="chat-shell__label">Grounded answers</span>
+            <span className="chat-shell__label">Ask a question</span>
             <p>Ask about a place, date range, and metric.</p>
           </div>
-          <span className="chat-shell__status"><i aria-hidden="true" /> Secure session</span>
+          <span className="chat-shell__status">Indexed NOAA data</span>
         </div>
         <SearchBox placeholder="Search or ask a historical question…" aiMode />
         <Chat
@@ -130,37 +112,34 @@ function App() {
   return (
     <main className="page-shell">
       <nav className="topbar" aria-label="Primary">
-        <div className="brand-lockup">
-          <span className="brand-mark" aria-hidden="true"><span /></span>
-          <span>NOAA / Weather Expert</span>
-        </div>
-        <span className="topbar-note">Historical climate archive</span>
+        <span>NOAA Weather Expert</span>
+        <span>Historical observations / 2024</span>
       </nav>
-      <header className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow">NOAA / GHCND / 2024 ARCHIVE</p>
-          <h1>Weather history, with the record in view.</h1>
-          <p className="lede">Ask clear questions about daily observations in New York City, Chicago, and San Francisco.</p>
-          <div className="hero-note"><span className="hero-note__line" /><span>Historical observations only. Not a live forecast.</span></div>
-        </div>
-        <CoveragePanel />
-      </header>
-      <section className="workspace" aria-labelledby="ask-heading">
-        <div className="section-heading">
-          <p className="section-kicker">Start with a question</p>
-          <h2 id="ask-heading">Ask the archive.</h2>
-          <p>Name a place, date range, and metric. The expert will show what the indexed record can support.</p>
-        </div>
-        <div className="question-grid" aria-label="Example questions">
-          {questions.map((question) => <button key={question.text} type="button" onClick={() => window.dispatchEvent(new CustomEvent("noaa-example", { detail: question.text }))}>
-            <span className="question-label">{question.label}</span>
-            <span className="question-text">{question.text}</span>
-            <span className="question-arrow" aria-hidden="true">↗</span>
-          </button>)}
-        </div>
-        <DemoChat />
-      </section>
-      <footer><span>Source: NOAA Climate Data Online, GHCND daily summaries.</span><span>Source values retained. US units normalized where applicable.</span></footer>
+      <div className="demo-layout">
+        <section className="explanation" aria-labelledby="page-heading">
+          <div className="explanation__copy">
+            <h1 id="page-heading">Historical weather observations, explained.</h1>
+            <p className="lede">This demo uses Algolia Agent Studio to answer questions about daily NOAA records from three US cities.</p>
+            <p className="boundary">Historical observations only. Not a live forecast.</p>
+          </div>
+          <CoveragePanel />
+          <p className="explanation__footer">Use a specific place, date range, and metric. If the record cannot answer, the expert will say so.</p>
+        </section>
+        <section className="demo-panel" aria-labelledby="ask-heading">
+          <div className="section-heading">
+            <h2 id="ask-heading">Ask the demo.</h2>
+            <p>Try one of these questions or write your own.</p>
+          </div>
+          <div className="question-grid" aria-label="Example questions">
+            {questions.map((question) => <button key={question.text} type="button" onClick={() => window.dispatchEvent(new CustomEvent("noaa-example", { detail: question.text }))}>
+              <span className="question-text">{question.text}</span>
+              <span className="question-arrow" aria-hidden="true">↗</span>
+            </button>)}
+          </div>
+          <DemoChat />
+        </section>
+      </div>
+      <footer><span>Source: NOAA Climate Data Online, GHCND daily summaries.</span><span>US units normalized where applicable.</span></footer>
     </main>
   );
 }
