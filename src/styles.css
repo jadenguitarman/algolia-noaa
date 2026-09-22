@@ -74,23 +74,24 @@ footer { display: flex; flex: 0 0 auto; justify-content: space-between; gap: 16p
 }
 
 @media (max-width: 860px) {
-  .page-shell { height: auto; min-height: 200dvh; overflow: visible; padding: 18px 20px 22px; }
-  .topbar { flex-basis: 29px; }
-  .demo-layout { flex: 0 0 auto; grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 0; height: 200dvh; padding: 28px 0 0; }
-  .explanation { justify-content: center; padding: 0 4vw 10vh; }
-  .demo-panel { min-height: 0; margin: 0 0 8vh; }
-  footer { padding-top: 0; }
+  .page-shell { position: relative; height: 200dvh; min-height: 200dvh; overflow: visible; padding: 0 20px; }
+  .topbar { position: absolute; z-index: 2; top: 18px; right: 20px; left: 20px; }
+  .demo-layout { display: grid; flex: 0 0 auto; grid-template-columns: 1fr; grid-template-rows: 100dvh 100dvh; gap: 0; height: 200dvh; padding: 0; }
+  .explanation { justify-content: center; padding: 70px 4vw 10vh; }
+  .demo-panel { min-height: 0; margin: 0; padding-top: 52px; padding-bottom: 24px; }
+  footer { position: absolute; right: 20px; bottom: 17px; left: 20px; padding-top: 0; }
 }
 
 @media (max-width: 560px) {
   .page-shell { padding-right: 15px; padding-left: 15px; }
   .topbar { font-size: .6rem; }
+  .topbar { right: 15px; left: 15px; }
   .topbar span:last-child { max-width: 135px; text-align: right; }
   h1 { font-size: clamp(2.65rem, 12vw, 4rem); }
-  .demo-layout { padding-top: 18px; }
+  .demo-panel { padding-top: 48px; }
   .question-grid { grid-template-columns: 1fr; margin-top: 16px; }
   .question-grid button { min-height: 55px; flex-direction: row; align-items: center; gap: 12px; }
   .question-arrow { margin-left: auto; }
   .chat-shell__bar { align-items: flex-start; flex-direction: column; gap: 4px; }
-  footer { flex-direction: column; gap: 3px; }
+  footer { right: 15px; bottom: 15px; left: 15px; flex-direction: column; gap: 3px; }
 }
