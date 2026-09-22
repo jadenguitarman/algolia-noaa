@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Chat, InstantSearch, SearchBox, useSearchBox } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
+import "instantsearch.css/components/chat.css";
 import "./styles.css";
 import { coverage } from "./data";
 
@@ -47,6 +48,15 @@ function DemoChat() {
   return <AuthenticatedChat />;
 }
 
+function ChatEmptyState() {
+  return (
+    <div className="chat-empty-state">
+      <p>Ask a question about the indexed NOAA record.</p>
+      <span>Use a city, a date range, and a metric to get started.</span>
+    </div>
+  );
+}
+
 function AuthenticatedChat() {
   const [userToken, setUserToken] = React.useState<string | null>(null);
   const [authError, setAuthError] = React.useState<string | null>(null);
@@ -88,6 +98,7 @@ function AuthenticatedChat() {
           agentId={agentId!}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
           context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
+          messagesProps={{ emptyComponent: ChatEmptyState }}
           translations={{
             prompt: { disclaimer: "Answers use indexed NOAA observations only; they are not forecasts." },
           }}
