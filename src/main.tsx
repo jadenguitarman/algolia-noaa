@@ -14,9 +14,9 @@ const isConfigured = Boolean(appId && searchKey && agentId);
 const searchClient = isConfigured ? algoliasearch(appId, searchKey) : null;
 
 const questions = [
-  "What was the average maximum temperature in New York in July 2024?",
-  "Which city had the most precipitation in March 2024?",
-  "Compare minimum temperatures in Chicago and San Francisco during January 2024.",
+  { label: "Temperature", text: "What was the average maximum temperature in New York in July 2024?" },
+  { label: "Precipitation", text: "Which city had the most precipitation in March 2024?" },
+  { label: "Comparison", text: "Compare minimum temperatures in Chicago and San Francisco during January 2024." },
 ];
 
 function ConfigurationNotice() {
@@ -30,13 +30,31 @@ function ConfigurationNotice() {
 
 function CoveragePanel() {
   return (
-    <aside className="coverage" aria-label="Data coverage">
-      <p className="eyebrow">INDEXED DATA</p>
-      <h2>Coverage</h2>
-      <dl>
-        <div><dt>Places</dt><dd>{coverage.cities.join(" · ")}</dd></div>
-        <div><dt>Dates</dt><dd>{coverage.dates}</dd></div>
-        <div><dt>Metrics</dt><dd>{coverage.metrics.join(" · ")}</dd></div>
+    <aside className="coverage-card" aria-label="Data coverage">
+      <div className="coverage-card__topline">
+        <span>Archive brief</span>
+        <span className="coverage-card__year">2024</span>
+      </div>
+      <h2>What the expert can see</h2>
+      <p className="coverage-card__intro">A focused slice of the NOAA daily record, prepared for clear comparisons.</p>
+      <div className="coverage-stats">
+        <div className="coverage-stat">
+          <strong>{coverage.cities.length}</strong>
+          <span>cities</span>
+        </div>
+        <div className="coverage-stat">
+          <strong>366</strong>
+          <span>days</span>
+        </div>
+        <div className="coverage-stat">
+          <strong>{coverage.metrics.length}</strong>
+          <span>metrics</span>
+        </div>
+      </div>
+      <dl className="coverage-list">
+        <div><dt>Places</dt><dd>{coverage.cities.join(" / ")}</dd></div>
+        <div><dt>Window</dt><dd>{coverage.dates.replace(" → ", " to ")}</dd></div>
+        <div><dt>Measures</dt><dd>{coverage.metrics.join(" / ")}</dd></div>
       </dl>
       <p className="source">{coverage.source}</p>
     </aside>
@@ -77,6 +95,13 @@ function AuthenticatedChat() {
     <InstantSearch searchClient={searchClient!} indexName={indexName}>
       <div className="chat-shell">
         <ExampleQueryBridge />
+        <div className="chat-shell__bar">
+          <div>
+            <span className="chat-shell__label">Grounded answers</span>
+            <p>Ask about a place, date range, and metric.</p>
+          </div>
+          <span className="chat-shell__status"><i aria-hidden="true" /> Secure session</span>
+        </div>
         <SearchBox placeholder="Search or ask a historical question…" aiMode />
         <Chat
           agentId={agentId!}
@@ -104,27 +129,38 @@ function ExampleQueryBridge() {
 function App() {
   return (
     <main className="page-shell">
+      <nav className="topbar" aria-label="Primary">
+        <div className="brand-lockup">
+          <span className="brand-mark" aria-hidden="true"><span /></span>
+          <span>NOAA / Weather Expert</span>
+        </div>
+        <span className="topbar-note">Historical climate archive</span>
+      </nav>
       <header className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">NOAA · GHCND · 2024</p>
-          <h1>NOAA Weather Expert</h1>
-          <p className="lede">Ask grounded questions about historical daily observations for three US cities. The expert searches a curated NOAA index and says when the data cannot answer.</p>
-          <p className="boundary">Historical observations only · Not a live forecast</p>
+          <p className="eyebrow">NOAA / GHCND / 2024 ARCHIVE</p>
+          <h1>Weather history, with the record in view.</h1>
+          <p className="lede">Ask clear questions about daily observations in New York City, Chicago, and San Francisco.</p>
+          <div className="hero-note"><span className="hero-note__line" /><span>Historical observations only. Not a live forecast.</span></div>
         </div>
         <CoveragePanel />
       </header>
       <section className="workspace" aria-labelledby="ask-heading">
         <div className="section-heading">
-          <p className="eyebrow">ASK THE INDEX</p>
-          <h2 id="ask-heading">What do you want to compare?</h2>
-          <p>Try a specific place, date range, and metric. Include units when you have a preference.</p>
+          <p className="section-kicker">Start with a question</p>
+          <h2 id="ask-heading">Ask the archive.</h2>
+          <p>Name a place, date range, and metric. The expert will show what the indexed record can support.</p>
         </div>
         <div className="question-grid" aria-label="Example questions">
-          {questions.map((question) => <button key={question} type="button" onClick={() => window.dispatchEvent(new CustomEvent("noaa-example", { detail: question }))}>{question}</button>)}
+          {questions.map((question) => <button key={question.text} type="button" onClick={() => window.dispatchEvent(new CustomEvent("noaa-example", { detail: question.text }))}>
+            <span className="question-label">{question.label}</span>
+            <span className="question-text">{question.text}</span>
+            <span className="question-arrow" aria-hidden="true">↗</span>
+          </button>)}
         </div>
         <DemoChat />
       </section>
-      <footer>Source: NOAA Climate Data Online, GHCND daily summaries. Values retain the source observation and normalized US units.</footer>
+      <footer><span>Source: NOAA Climate Data Online, GHCND daily summaries.</span><span>Source values retained. US units normalized where applicable.</span></footer>
     </main>
   );
 }
