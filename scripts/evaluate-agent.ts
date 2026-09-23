@@ -38,6 +38,7 @@ const secureUserToken = await createSecureUserToken();
 type Evaluation = { prompt: string; mustMention: string[]; mustMentionOne?: string[]; mustMentionAlsoOne?: string[] };
 const questions: Evaluation[] = [
   { prompt: "What was the average maximum temperature in New York in July 2024?", mustMention: ["New York", "July", "2024"], mustMentionOne: ["°F", "fahrenheit"] },
+  { prompt: "What's the average maximum temperature on Wednesdays in Boston in 2024?", mustMention: ["Boston", "Wednesday", "2024"], mustMentionOne: ["62.35", "62.4"], mustMentionAlsoOne: ["°F", "fahrenheit"] },
   { prompt: "Which city had the most precipitation in March 2024?", mustMention: ["New York", "March", "2024", "precipitation"], mustMentionOne: ["9.067", "9.07", "9.1"], mustMentionAlsoOne: ["total", "monthly"] },
   { prompt: "Which city had the most precipitation in March 2024? Compare the monthly totals, not a single day.", mustMention: ["New York", "March", "2024", "precipitation"], mustMentionOne: ["9.067", "9.07", "9.1"], mustMentionAlsoOne: ["total", "monthly"] },
   { prompt: "Compare minimum temperatures in Chicago and San Francisco during January 2024.", mustMention: ["Chicago", "San Francisco", "January", "2024", "°F"] },

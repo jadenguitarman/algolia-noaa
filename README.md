@@ -50,7 +50,7 @@ ALGOLIA_ADMIN_API_KEY=<admin key, local only> \
 npm run seed
 ```
 
-The seeder creates/updates `noaa_weather_demo`, configures searchable attributes and facets (including `recordType`, `aggregation`, and `coverageComplete`), adds numeric filtering attributes, uploads daily and monthly records in batches, and prints the indexed record count. Verify that count in the Algolia dashboard before publishing the agent.
+The seeder creates/updates `noaa_weather_demo`, configures searchable calendar and insight attributes (including `weekday`, `season`, `recordType`, `aggregation`, `coverageComplete`, and numeric coverage fields), adds numeric filtering attributes, uploads daily and derived insight records in batches, and prints the indexed record count. Verify that count in the Algolia dashboard before publishing the agent.
 
 ## Agent Studio
 
@@ -60,7 +60,7 @@ Follow [`agent-studio-instructions.md`](./agent-studio-instructions.md) to creat
 npm run evaluate
 ```
 
-The evaluation includes a regression for “Which city had the most precipitation in March 2024?” and checks that the answer identifies New York City and the monthly aggregate value from the indexed records, rather than a single-day value.
+The evaluation includes regressions for “Which city had the most precipitation in March 2024?” and other representative questions. The indexed data also supports weekday averages, seasonal and annual summaries, rainy-day counts, threshold days, temperature ranges, extremes, and longest dry spells. Each derived record includes its aggregation type, coverage ratio, observation count, and source lineage.
 
 For local user-authenticated evaluation, also set `ALGOLIA_AGENT_USER_AUTH_KEY` in `.env.local`. The evaluator resolves its Agent Studio secret-key ID with the local Admin key, mints a short-lived secure-user JWT, and sends it as `X-Algolia-Secure-User-Token`. Never put this key or JWT in `VITE_*` variables or the public deployment.
 

@@ -20,6 +20,21 @@ type WeatherRecord = {
   source?: string;
   sourceDataset?: string;
   descriptiveText?: string;
+  dateRange?: string;
+  recordType?: string;
+  aggregation?: string;
+  aggregationDimension?: string;
+  aggregationValue?: string;
+  observationCount?: number;
+  expectedObservationCount?: number;
+  coverageRatio?: number;
+  coverageComplete?: boolean;
+  weekday?: string;
+  season?: string;
+  thresholdLabel?: string;
+  extremeDate?: string;
+  eventStartDate?: string;
+  eventEndDate?: string;
   [key: string]: unknown;
 };
 
@@ -117,10 +132,10 @@ function WeatherRecordCard({ record, index }: { record: WeatherRecord; index: nu
     <li className="weather-record-card">
       <div className="weather-record-card__heading">
         <div>
-          <span className="weather-record-card__index">Observation {index + 1}</span>
+          <span className="weather-record-card__index">{record.recordType === "daily" ? "Observation" : "Derived insight"} {index + 1}</span>
           <h3>{location || "NOAA observation"}</h3>
         </div>
-        <time dateTime={record.date}>{record.date || "Unknown date"}</time>
+        <time dateTime={record.date}>{record.dateRange || record.date || "Unknown date"}</time>
       </div>
       <div className="weather-record-card__measure">
         <span>{record.metric || record.metricCode || "Observation"}</span>
@@ -129,6 +144,9 @@ function WeatherRecordCard({ record, index }: { record: WeatherRecord; index: nu
       <dl className="weather-record-card__details">
         <div><dt>Station ID</dt><dd>{record.stationId || "—"}</dd></div>
         <div><dt>NOAA raw value</dt><dd>{typeof record.rawValue === "number" ? `${formatNumber(record.rawValue)} ${record.rawUnit || ""}` : "—"}</dd></div>
+        {record.aggregation && record.aggregation !== "daily" && <div><dt>Aggregation</dt><dd>{record.aggregationValue ? `${record.aggregation} · ${record.aggregationValue}` : record.aggregation}</dd></div>}
+        {typeof record.observationCount === "number" && <div><dt>Coverage</dt><dd>{record.observationCount}{typeof record.expectedObservationCount === "number" ? ` / ${record.expectedObservationCount}` : ""} observations{record.coverageComplete ? " · complete" : " · partial"}</dd></div>}
+        {record.thresholdLabel && <div><dt>Threshold</dt><dd>{record.thresholdLabel}</dd></div>}
         <div><dt>Coordinates</dt><dd>{coordinates || "—"}</dd></div>
         <div><dt>Dataset</dt><dd>{record.sourceDataset || "GHCND"}</dd></div>
       </dl>

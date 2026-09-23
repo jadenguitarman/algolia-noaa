@@ -11,6 +11,7 @@
     "normalize": "node --import tsx/esm scripts/normalize-noaa.ts",
     "fixture": "node --import tsx/esm scripts/build-fixture.ts",
     "seed": "node --import tsx/esm scripts/seed-algolia.ts",
+    "evaluate:data": "node --import tsx/esm scripts/evaluate-insights.ts",
     "evaluate": "node --import tsx/esm scripts/evaluate-agent.ts",
     "coverage": "node --import tsx/esm scripts/coverage.ts"
   },
