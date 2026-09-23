@@ -17,8 +17,8 @@ const isConfigured = Boolean(appId && searchKey && agentId);
 const searchClient = isConfigured ? algoliasearch(appId, searchKey) : null;
 
 const questions = [
-  { label: "Dry spell", text: "Which city had the longest dry spell in 2024, and how long did it last?" },
-  { label: "Temperature range", text: "Among cities with complete temperature coverage, which had the widest daily temperature range in 2024? Use the annual extreme record to name the date." },
+  { label: "Dry spell", text: "Which city had the longest dry spell in 2024?" },
+  { label: "Temperature swing", text: "Which city had the biggest temperature swing in 2024?" },
   { label: "Freezing days", text: "Which city had the most freezing days in 2024?" },
 ];
 

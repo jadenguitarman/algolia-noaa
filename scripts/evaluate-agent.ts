@@ -38,12 +38,14 @@ const secureUserToken = await createSecureUserToken();
 type Evaluation = { prompt: string; mustMention: string[]; mustMentionOne?: string[]; mustMentionAlsoOne?: string[] };
 const questions: Evaluation[] = [
   { prompt: "What was the average maximum temperature in New York in July 2024?", mustMention: ["New York", "July", "2024"], mustMentionOne: ["°F", "fahrenheit"] },
-  { prompt: "Among cities with complete temperature coverage, which had the widest daily temperature range in 2024? Use the annual extreme record to name the date.", mustMention: ["Denver", "2024"], mustMentionOne: ["48.96", "49.0", "49"], mustMentionAlsoOne: ["December", "2024-12-21", "12/21"] },
+  { prompt: "Which city had the longest dry spell in 2024?", mustMention: ["Los Angeles", "2024"], mustMentionOne: ["180", "180 days"] },
+  { prompt: "Which city had the biggest temperature swing in 2024?", mustMention: ["Denver", "2024"], mustMentionOne: ["48.96", "49.0", "49"], mustMentionAlsoOne: ["December", "2024-12-21", "12/21"] },
+  { prompt: "Which city had the most freezing days in 2024?", mustMention: ["Denver", "2024"], mustMentionOne: ["152", "152 days"] },
   { prompt: "What's the average maximum temperature on Wednesdays in Boston in 2024?", mustMention: ["Boston", "Wednesday", "2024"], mustMentionOne: ["62.35", "62.4"], mustMentionAlsoOne: ["°F", "fahrenheit"] },
   { prompt: "Which city had the most precipitation in March 2024?", mustMention: ["New York", "March", "2024", "precipitation"], mustMentionOne: ["9.067", "9.07", "9.1"], mustMentionAlsoOne: ["total", "monthly"] },
   { prompt: "Which city had the most precipitation in March 2024? Compare the monthly totals, not a single day.", mustMention: ["New York", "March", "2024", "precipitation"], mustMentionOne: ["9.067", "9.07", "9.1"], mustMentionAlsoOne: ["total", "monthly"] },
   { prompt: "Compare minimum temperatures in Chicago and San Francisco during January 2024.", mustMention: ["Chicago", "San Francisco", "January", "2024", "°F"] },
-  { prompt: "What was the weather in Miami in 2024?", mustMention: ["Miami"], mustMentionOne: ["can't", "can’t", "cannot", "don't have", "don’t have", "no data", "not available", "not covered", "not in the indexed", "does not contain", "outside"] },
+  { prompt: "What was the weather in Miami in 2024?", mustMention: ["Miami"], mustMentionOne: ["can't", "can’t", "cannot", "don't have", "don’t have", "no data", "no matching weather data", "not available", "not covered", "not in the indexed", "not in the dataset", "does not contain", "not found", "not included", "outside"] },
 ];
 for (const test of questions) {
   const messageId = `alg_msg_${randomUUID()}`;
