@@ -6,7 +6,7 @@ export type Station = { id: string; name: string; latitude: number; longitude: n
 export type RawObservation = { city: string; station: Station; date: string; datatype: string; value: number; rawValue?: number; rawUnit?: string };
 export type RawDownload = { source: string; dataset: string; startDate: string; endDate: string; cities: Array<{ city: string; station: Station; observations: RawObservation[] }> };
 export type NormalizedRecord = {
-  objectID: string; station: string; stationId: string; city: string; date: string; dateNumeric: number; year: number; month: number; metric: string; metricCode: string; value: number; unit: string; rawValue: number; rawUnit: string; normalizedFahrenheit?: number; normalizedInches?: number; latitude: number; longitude: number; source: string; sourceDataset: string; descriptiveText: string;
+  objectID: string; station: string; stationId: string; city: string; date: string; dateNumeric: number; year: number; month: number; metric: string; metricCode: string; value: number; unit: string; rawValue: number; rawUnit: string; normalizedFahrenheit?: number; normalizedInches?: number; latitude: number; longitude: number; source: string; sourceDataset: string; descriptiveText: string; recordType: "daily" | "monthly_aggregate"; aggregation: "daily" | "monthly_total" | "monthly_average"; aggregationPriority: number; observationCount: number; coverageComplete: boolean; dateRange: string;
 };
 
 export const cities: City[] = [
@@ -45,6 +45,70 @@ export function normalize(raw: RawDownload): NormalizedRecord[] {
       ...(observation.datatype === "PRCP" ? { normalizedInches: Number(value.toFixed(3)) } : { normalizedFahrenheit: Number(value.toFixed(2)) }),
       latitude: station.latitude, longitude: station.longitude, source, sourceDataset: raw.dataset,
       descriptiveText: `${city} at ${station.name} on ${observation.date}: ${label.metric} ${value.toFixed(2)} ${label.unit}. NOAA GHCND historical observation.`,
+      recordType: "daily", aggregation: "daily", aggregationPriority: 0, observationCount: 1, coverageComplete: true, dateRange: observation.date,
     }];
   }));
+}
+
+function daysInMonth(year: number, month: number) {
+  return new Date(Date.UTC(year, month, 0)).getUTCDate();
+}
+
+function monthLabel(year: number, month: number) {
+  return new Intl.DateTimeFormat("en-US", { month: "long", timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, 1)));
+}
+
+/**
+ * Add complete-month summaries derived only from the normalized daily NOAA rows.
+ * Partial months intentionally produce no aggregate so the agent cannot present
+ * an incomplete total or average as a complete monthly answer.
+ */
+export function addMonthlyAggregates(dailyRecords: NormalizedRecord[]): NormalizedRecord[] {
+  const groups = new Map<string, NormalizedRecord[]>();
+  for (const record of dailyRecords) {
+    if (record.recordType !== "daily") continue;
+    const key = `${record.stationId}|${record.year}|${record.month}|${record.metricCode}`;
+    const group = groups.get(key) || [];
+    group.push(record);
+    groups.set(key, group);
+  }
+
+  const aggregates: NormalizedRecord[] = [];
+  for (const records of groups.values()) {
+    const first = records[0];
+    const expectedDays = daysInMonth(first.year, first.month);
+    if (records.length !== expectedDays) continue;
+
+    const month = String(first.month).padStart(2, "0");
+    const monthStart = `${first.year}-${month}-01`;
+    const monthEnd = `${first.year}-${month}-${String(expectedDays).padStart(2, "0")}`;
+    const label = monthLabel(first.year, first.month);
+    const rawTotal = records.reduce((sum, record) => sum + record.rawValue, 0);
+    const rawAverage = rawTotal / records.length;
+    const isPrecipitation = first.metricCode === "PRCP";
+    const value = isPrecipitation ? mmToInches(rawTotal) : cToF(rawAverage);
+    const normalizedValue = Number(value.toFixed(isPrecipitation ? 3 : 2));
+    const aggregateLabel = isPrecipitation ? "monthly precipitation total" : `monthly average ${first.metric}`;
+    const aggregation: "monthly_total" | "monthly_average" = isPrecipitation ? "monthly_total" : "monthly_average";
+
+    aggregates.push({
+      ...first,
+      objectID: `${first.stationId.replaceAll(":", "_")}_${first.year}-${month}_${first.metricCode}_${aggregation}`,
+      date: `${first.year}-${month}`,
+      dateNumeric: Number(`${first.year}${month}`),
+      metric: first.metric,
+      value: normalizedValue,
+      rawValue: Number((isPrecipitation ? rawTotal : rawAverage).toFixed(3)),
+      ...(isPrecipitation ? { normalizedInches: normalizedValue, normalizedFahrenheit: undefined } : { normalizedFahrenheit: normalizedValue, normalizedInches: undefined }),
+      recordType: "monthly_aggregate",
+      aggregation,
+      aggregationPriority: 1,
+      observationCount: records.length,
+      coverageComplete: true,
+      dateRange: `${monthStart} to ${monthEnd}`,
+      descriptiveText: `${first.city} at ${first.station}: ${aggregateLabel} for ${label} ${first.year}, based on ${records.length} complete daily ${first.metricCode} observations: ${normalizedValue.toFixed(isPrecipitation ? 3 : 2)} ${first.unit}. NOAA GHCND historical aggregate derived from indexed daily observations.`,
+    });
+  }
+
+  return [...dailyRecords, ...aggregates];
 }
