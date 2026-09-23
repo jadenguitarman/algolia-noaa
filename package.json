@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@algolia/client-search": "latest",
+    "@fielddaylabs/signaldock-sdk": "1.0.2",
     "algoliasearch": "latest",
     "react": "latest",
     "react-dom": "latest",

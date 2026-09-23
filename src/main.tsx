@@ -8,6 +8,7 @@ import "instantsearch.css/components/chat.css";
 import "./styles.css";
 import { coverage } from "./data";
 import { WeatherResultsLayout } from "./weather-results";
+import { signalDock } from "./signaldock.client";
 
 const appId = import.meta.env.VITE_ALGOLIA_APP_ID;
 const searchKey = import.meta.env.VITE_ALGOLIA_SEARCH_API_KEY;
@@ -21,6 +22,18 @@ const questions = [
   { label: "Temperature swing", text: "Which city had the biggest temperature swing in 2024?" },
   { label: "Freezing days", text: "Which city had the most freezing days in 2024?" },
 ];
+
+function SignalDockPageView() {
+  React.useEffect(() => {
+    if (!signalDock) return;
+
+    void signalDock
+      .pageView({ path: window.location.pathname, utm: { campaign: "algolia-noaa" } })
+      .catch(() => undefined);
+  }, []);
+
+  return null;
+}
 
 function ConfigurationNotice() {
   return (
@@ -116,7 +129,9 @@ function ExampleQueryBridge({ chatRef }: { chatRef: React.RefObject<ChatHandle |
 
 function App() {
   return (
-    <main className="page-shell">
+    <>
+      <SignalDockPageView />
+      <main className="page-shell">
       <div className="demo-layout">
         <section className="explanation" aria-labelledby="page-heading">
           <div className="explanation__copy">
@@ -136,7 +151,8 @@ function App() {
         </section>
       </div>
       <footer>Source: NOAA Climate Data Online, GHCND daily summaries. US units normalized where applicable.</footer>
-    </main>
+      </main>
+    </>
   );
 }
 
