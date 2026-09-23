@@ -62,6 +62,8 @@ npm run evaluate
 
 The evaluation includes regressions for “Which city had the most precipitation in March 2024?” and other representative questions. The indexed data also supports weekday averages, seasonal and annual summaries, rainy-day counts, threshold days, temperature ranges, extremes, and longest dry spells. Each derived record includes its aggregation type, coverage ratio, observation count, and source lineage.
 
+For the public demo, disable Agent Studio's generated follow-up suggestions. The UI supplies three curated prompts, while unsupported requests should end with a clear indexed-coverage limitation instead of suggesting metrics or sources that are not available.
+
 For local user-authenticated evaluation, also set `ALGOLIA_AGENT_USER_AUTH_KEY` in `.env.local`. The evaluator resolves its Agent Studio secret-key ID with the local Admin key, mints a short-lived secure-user JWT, and sends it as `X-Algolia-Secure-User-Token`. Never put this key or JWT in `VITE_*` variables or the public deployment.
 
 ## Local development and build

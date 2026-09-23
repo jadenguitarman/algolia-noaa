@@ -35,7 +35,7 @@ async function createSecureUserToken() {
 }
 
 const secureUserToken = await createSecureUserToken();
-type Evaluation = { prompt: string; mustMention: string[]; mustMentionOne?: string[]; mustMentionAlsoOne?: string[] };
+type Evaluation = { prompt: string; mustMention: string[]; mustMentionOne?: string[]; mustMentionAlsoOne?: string[]; mustNotAppearInAnswer?: string[]; mustNotAppearInSuggestions?: string[] };
 const questions: Evaluation[] = [
   { prompt: "What was the average maximum temperature in New York in July 2024?", mustMention: ["New York", "July", "2024"], mustMentionOne: ["°F", "fahrenheit"] },
   { prompt: "Which city had the longest dry spell in 2024?", mustMention: ["Los Angeles", "2024"], mustMentionOne: ["180", "180 days"] },
@@ -47,11 +47,13 @@ const questions: Evaluation[] = [
   { prompt: "Which city had the most precipitation in March 2024? Compare the monthly totals, not a single day.", mustMention: ["New York", "March", "2024", "precipitation"], mustMentionOne: ["9.067", "9.07", "9.1"], mustMentionAlsoOne: ["total", "monthly"] },
   { prompt: "Compare minimum temperatures in Chicago and San Francisco during January 2024.", mustMention: ["Chicago", "San Francisco", "January", "2024", "°F"] },
   { prompt: "What was the weather in Miami in 2024?", mustMention: ["Miami"], mustMentionOne: ["can't", "can’t", "cannot", "don't have", "don’t have", "no data", "no matching weather data", "not available", "not covered", "not in the indexed", "not in the dataset", "does not contain", "not found", "not included", "outside"] },
+  { prompt: "Compare snowfall amounts in these cities", mustMention: [], mustMentionOne: ["not indexed", "not available", "does not contain", "does not include", "no matching weather data", "cannot"], mustNotAppearInAnswer: ["would you like", "if you want", "if you'd like", "is there another", "help with", "try another", "check another", "proceed", "instead"], mustNotAppearInSuggestions: ["snowfall", "snow", "other city", "different metric"] },
 ];
 for (const test of questions) {
   const messageId = `alg_msg_${randomUUID()}`;
   const response = await fetch(endpoint, { method: "POST", headers: { "content-type": "application/json", "x-algolia-application-id": requiredAppId, "x-algolia-api-key": apiKey, ...(secureUserToken ? { "x-algolia-secure-user-token": secureUserToken } : {}) }, body: JSON.stringify({ id: `alg_cnv_${randomUUID()}`, messageId, messages: [{ id: messageId, role: "user", parts: [{ type: "text", text: test.prompt }] }] }) });
   const body = await response.text(); if (!response.ok) throw new Error(`Agent request failed (${response.status}): ${body.slice(0, 500)}`);
-  const lower = body.toLowerCase(); const misses = test.mustMention.filter((term) => !lower.includes(term.toLowerCase())); const hasOne = !test.mustMentionOne || test.mustMentionOne.some((term) => lower.includes(term.toLowerCase())); if (!hasOne) misses.push(`one of: ${test.mustMentionOne?.join(", ")}`); const hasAlsoOne = !test.mustMentionAlsoOne || test.mustMentionAlsoOne.some((term) => lower.includes(term.toLowerCase())); if (!hasAlsoOne) misses.push(`one of: ${test.mustMentionAlsoOne?.join(", ")}`);
+  const parsed = JSON.parse(body) as { parts?: Array<{ type?: string; text?: string }>; suggestions?: string[] };
+  const lower = body.toLowerCase(); const answerText = (parsed.parts || []).filter((part) => part.type === "text").map((part) => part.text || "").join(" ").toLowerCase(); const suggestionsText = (parsed.suggestions || []).join(" ").toLowerCase(); const misses = test.mustMention.filter((term) => !lower.includes(term.toLowerCase())); const hasOne = !test.mustMentionOne || test.mustMentionOne.some((term) => lower.includes(term.toLowerCase())); if (!hasOne) misses.push(`one of: ${test.mustMentionOne?.join(", ")}`); const hasAlsoOne = !test.mustMentionAlsoOne || test.mustMentionAlsoOne.some((term) => lower.includes(term.toLowerCase())); if (!hasAlsoOne) misses.push(`one of: ${test.mustMentionAlsoOne?.join(", ")}`); const forbiddenAnswer = test.mustNotAppearInAnswer?.filter((term) => answerText.includes(term.toLowerCase())) || []; if (forbiddenAnswer.length) misses.push(`answer must not contain: ${forbiddenAnswer.join(", ")}`); const forbiddenSuggestions = test.mustNotAppearInSuggestions?.filter((term) => suggestionsText.includes(term.toLowerCase())) || []; if (forbiddenSuggestions.length) misses.push(`suggestions must not contain: ${forbiddenSuggestions.join(", ")}`);
   console.log(`${misses.length ? "FAIL" : "PASS"} ${test.prompt}${misses.length ? ` — missing: ${misses.join(", ")}` : ""}`);
 }
