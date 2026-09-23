@@ -17,9 +17,9 @@ const isConfigured = Boolean(appId && searchKey && agentId);
 const searchClient = isConfigured ? algoliasearch(appId, searchKey) : null;
 
 const questions = [
-  { label: "Temperature", text: "What was the average maximum temperature in New York in July 2024?" },
-  { label: "Precipitation", text: "Which city had the most precipitation in March 2024?" },
-  { label: "Comparison", text: "Compare minimum temperatures in Chicago and San Francisco during January 2024." },
+  { label: "Dry spell", text: "Which city had the longest dry spell in 2024, and how long did it last?" },
+  { label: "Temperature swing", text: "Where did the biggest one-day temperature swing happen in 2024?" },
+  { label: "Freezing days", text: "Which city had the most freezing days in 2024?" },
 ];
 
 function ConfigurationNotice() {
