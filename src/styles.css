@@ -61,6 +61,42 @@ dd { margin: 0; color: var(--ink); font-size: .73rem; font-weight: 650; line-hei
 .chat-shell .ais-ChatPrompt { padding: 0 14px 14px; }
 .chat-shell .ais-ChatPrompt-textarea { font-size: .82rem; }
 .chat-shell .ais-ChatPrompt-disclaimer { display: none; }
+.weather-results-summary { display: flex; align-items: center; gap: 8px; margin: 5px 14px 12px; padding: 9px 11px; border: 1px solid #d7e2de; border-radius: 9px; color: var(--ink-soft); background: #f3f7f4; font-size: .72rem; line-height: 1.3; }
+.weather-results-summary--complete { color: var(--ink); }
+.weather-results-summary__dot { width: 6px; height: 6px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px rgb(223 111 52 / 12%); }
+.weather-results-summary:not(.weather-results-summary--complete) .weather-results-summary__dot { animation: weather-results-pulse 1.2s ease-in-out infinite; }
+.weather-results-summary__button { margin-left: auto; padding: 0; border: 0; color: var(--accent); background: transparent; font-size: .72rem; font-weight: 750; cursor: pointer; }
+.weather-results-summary__button:hover { color: #b9521f; text-decoration: underline; text-underline-offset: 3px; }
+.weather-results-summary__button:focus-visible, .weather-results-dialog__close:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.weather-results-modal { position: fixed; z-index: 20; inset: 0; display: grid; place-items: center; padding: 24px; background: rgb(24 44 51 / 42%); backdrop-filter: blur(7px); }
+.weather-results-dialog { display: flex; width: min(820px, 100%); max-height: min(88dvh, 900px); flex-direction: column; overflow: hidden; border: 1px solid #cbd9d4; border-radius: 18px; color: var(--ink); background: var(--paper); box-shadow: 0 24px 80px rgb(24 44 51 / 25%); }
+.weather-results-dialog__header { display: flex; flex: 0 0 auto; align-items: flex-start; justify-content: space-between; gap: 24px; padding: 22px 24px 18px; border-bottom: 1px solid var(--line); background: #f7faf7; }
+.weather-results-dialog__eyebrow { color: var(--accent); font-size: .62rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.weather-results-dialog__header h2 { margin: 6px 0 5px; font-size: 1.35rem; letter-spacing: -.045em; }
+.weather-results-dialog__header p { margin: 0; color: var(--ink-soft); font-size: .76rem; }
+.weather-results-dialog__close { display: grid; width: 32px; height: 32px; flex: 0 0 auto; place-items: center; border: 1px solid #cbd9d4; border-radius: 50%; color: var(--ink); background: transparent; font-size: 1.35rem; line-height: 1; cursor: pointer; }
+.weather-results-dialog__close:hover { border-color: var(--accent); color: var(--accent); background: #fff; }
+.weather-results-dialog__body { min-height: 0; overflow-y: auto; padding: 18px 24px 24px; }
+.weather-record-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.weather-record-card { padding: 16px; border: 1px solid #d7e2de; border-radius: 12px; background: #fff; }
+.weather-record-card__heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.weather-record-card__index { color: var(--ink-soft); font-size: .61rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.weather-record-card h3 { margin: 4px 0 0; color: var(--ink); font-size: .9rem; font-weight: 750; line-height: 1.25; }
+.weather-record-card time { color: var(--ink-soft); font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.weather-record-card__measure { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 14px 0 12px; padding-bottom: 12px; border-bottom: 1px solid #e5ece9; }
+.weather-record-card__measure span { color: var(--ink-soft); font-size: .72rem; }
+.weather-record-card__measure strong { color: var(--ink); font-size: 1.1rem; font-variant-numeric: tabular-nums; }
+.weather-record-card__details { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 0; }
+.weather-record-card__details div { min-width: 0; }
+.weather-record-card__details dt { margin-bottom: 3px; color: var(--ink-soft); font-size: .58rem; }
+.weather-record-card__details dd { overflow-wrap: anywhere; font-size: .7rem; font-weight: 650; }
+.weather-record-card__description { margin: 14px 0 0; color: var(--ink-soft); font-size: .7rem; line-height: 1.45; }
+.weather-record-card__json { margin-top: 14px; border-top: 1px solid #e5ece9; padding-top: 10px; }
+.weather-record-card__json summary { color: var(--ink-soft); font-size: .67rem; font-weight: 750; cursor: pointer; }
+.weather-record-card__json pre { max-height: none; margin: 9px 0 0; padding: 11px; overflow-x: auto; border-radius: 8px; color: #49616a; background: #f3f7f4; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .62rem; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; }
+.weather-results-dialog__empty { margin: 0; color: var(--ink-soft); font-size: .8rem; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@keyframes weather-results-pulse { 0%, 100% { opacity: .45; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
 .chat-empty-state { display: grid; min-height: 100%; place-content: center; gap: 6px; padding: 24px; text-align: center; }
 .chat-empty-state p { margin: 0; color: var(--ink); font-size: .88rem; font-weight: 700; }
 .chat-empty-state span { color: var(--ink-soft); font-size: .75rem; }

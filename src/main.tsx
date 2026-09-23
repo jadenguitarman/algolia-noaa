@@ -1,11 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Chat, ChatInlineLayout, InstantSearch, useSearchBox } from "react-instantsearch";
+import { Chat, ChatInlineLayout, InstantSearch, SearchIndexToolType, useSearchBox } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
 import "instantsearch.css/components/chat.css";
 import "./styles.css";
 import { coverage } from "./data";
+import { WeatherResultsLayout } from "./weather-results";
 
 const appId = import.meta.env.VITE_ALGOLIA_APP_ID;
 const searchKey = import.meta.env.VITE_ALGOLIA_SEARCH_API_KEY;
@@ -91,6 +92,7 @@ function AuthenticatedChat() {
           layoutComponent={ChatInlineLayout}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
           context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
+          tools={{ [SearchIndexToolType]: { layoutComponent: WeatherResultsLayout } }}
           messagesProps={{ emptyComponent: ChatEmptyState }}
         />
       </div>
