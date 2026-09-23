@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Chat, ChatInlineLayout, InstantSearch, SearchIndexToolType, useSearchBox } from "react-instantsearch";
+import { Chat, ChatInlineLayout, InstantSearch, SearchIndexToolType } from "react-instantsearch";
+import type { ChatHandle } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
 import "instantsearch.css/components/chat.css";
@@ -61,6 +62,7 @@ function ChatEmptyState() {
 function AuthenticatedChat() {
   const [userToken, setUserToken] = React.useState<string | null>(null);
   const [authError, setAuthError] = React.useState<string | null>(null);
+  const chatRef = React.useRef<ChatHandle | null>(null);
 
   React.useEffect(() => {
     let cancelled = false;
@@ -86,8 +88,9 @@ function AuthenticatedChat() {
   return (
     <InstantSearch searchClient={searchClient!} indexName={indexName}>
       <div className="chat-shell">
-        <ExampleQueryBridge />
+        <ExampleQueryBridge chatRef={chatRef} />
         <Chat
+          ref={chatRef}
           agentId={agentId!}
           layoutComponent={ChatInlineLayout}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
@@ -100,13 +103,15 @@ function AuthenticatedChat() {
   );
 }
 
-function ExampleQueryBridge() {
-  const { refine } = useSearchBox();
+function ExampleQueryBridge({ chatRef }: { chatRef: React.RefObject<ChatHandle | null> }) {
   React.useEffect(() => {
-    const handler = (event: Event) => refine((event as CustomEvent<string>).detail);
+    const handler = (event: Event) => {
+      const text = (event as CustomEvent<string>).detail;
+      if (typeof text === "string" && text.trim()) chatRef.current?.sendMessage({ text });
+    };
     window.addEventListener("noaa-example", handler);
     return () => window.removeEventListener("noaa-example", handler);
-  }, [refine]);
+  }, [chatRef]);
   return null;
 }
 
