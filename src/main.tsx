@@ -34,7 +34,7 @@ function CoveragePanel() {
   return (
     <aside className="coverage-card" aria-label="Data coverage">
       <h2>Data coverage</h2>
-      <p className="coverage-card__intro">A small, focused slice of the NOAA daily record for this demo.</p>
+      <p className="coverage-card__intro">The indexed 2024 NOAA daily record spans seven major US cities.</p>
       <dl className="coverage-list">
         <div><dt>Places</dt><dd>{coverage.cities.join(" / ")}</dd></div>
         <div><dt>Dates</dt><dd>{coverage.dates.replace(" → ", " to ")}</dd></div>
@@ -117,7 +117,7 @@ function App() {
         <section className="explanation" aria-labelledby="page-heading">
           <div className="explanation__copy">
             <h1 id="page-heading">Historical weather observations, explained.</h1>
-            <p className="lede">This demo uses Algolia Agent Studio to answer questions about daily NOAA records from three US cities.</p>
+            <p className="lede">This demo uses Algolia Agent Studio to answer questions about daily NOAA records from seven major US cities.</p>
           </div>
           <CoveragePanel />
         </section>

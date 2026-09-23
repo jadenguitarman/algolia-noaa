@@ -2,7 +2,7 @@
 
 A small React + TypeScript + Vite demo for asking grounded questions about historical NOAA observations. It uses Algolia Agent Studio's React InstantSearch `Chat` widget over a `noaa_weather_demo` index.
 
-The tracked fixture contains real GHCND observations sampled from the first available day of each month in 2024 for three representative stations. A live CDO download produces the complete daily 2024 dataset.
+The tracked fixture contains real GHCND observations sampled from the first available day of each month in 2024 for seven major US cities. A live CDO download produces the complete daily 2024 dataset.
 
 ## Setup
 
@@ -36,7 +36,7 @@ npm run coverage
 
 The CDO v2 endpoint requires the token; the downloader also sends the User-Agent on every request. Keep both values local-only.
 
-The downloader resolves a GHCND station through the CDO station endpoint for each configured FIPS location, requests TMAX/TMIN/PRCP with pagination, caches the raw response locally, applies bounded retries for 429/5xx responses, and waits between pages. The raw download is ignored by Git. The normalizer preserves the source value and raw unit, then adds Fahrenheit or inches fields plus searchable descriptive text.
+The downloader resolves GHCND stations through the CDO station endpoint for each configured FIPS location, prefers known high-coverage stations, and falls back to the next candidate with actual TMAX/TMIN/PRCP observations. It requests the metrics with pagination, caches the raw response locally, applies bounded retries for 429/5xx responses, and waits between pages. The raw download is ignored by Git. The normalizer preserves the source value and raw unit, then adds Fahrenheit or inches fields plus searchable descriptive text.
 
 If live download is unavailable, `npm run normalize` uses the tracked `data/noaa-fixture.json` fixture.
 
@@ -70,7 +70,7 @@ npm run build
 npm run preview
 ```
 
-The UI has coverage, source, loading/error/no-configuration messaging, responsive layout, example prompts, and an explicit historical-observation/not-a-forecast boundary. Example prompts populate the InstantSearch query; use the Chat/AI Mode control to send them.
+The UI has coverage, source, loading/error/no-configuration messaging, responsive layout, example prompts, and an explicit historical-observation/not-a-forecast boundary. Example prompts send questions directly to the embedded Chat experience.
 
 ## Deployment
 

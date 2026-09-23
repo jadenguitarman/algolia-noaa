@@ -1,6 +1,32 @@
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { writeJson, source, type RawDownload, type RawObservation, type Station } from "./lib.js";
+
+const rawPath = resolve("data/noaa-raw.json");
+if (existsSync(rawPath)) {
+  const raw = JSON.parse(await readFile(rawPath, "utf8")) as RawDownload;
+  const fixture: RawDownload = {
+    source: raw.source,
+    dataset: raw.dataset,
+    startDate: raw.startDate,
+    endDate: raw.endDate,
+    cities: raw.cities.map(({ city, station, observations }) => {
+      const seen = new Set<string>();
+      const sampled = observations.filter((observation) => {
+        const key = `${observation.date.slice(0, 7)}:${observation.datatype}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+      console.log(`${city}: ${sampled.length} fixture observations`);
+      return { city, station, observations: sampled };
+    }),
+  };
+  await writeJson(resolve("data/noaa-fixture.json"), fixture);
+  console.log("Wrote data/noaa-fixture.json from the live raw download");
+  process.exit(0);
+}
 
 const inputs = [
   { city: "New York City", file: "data/.download/ny.csv", id: "GHCND:USW00094728", name: "NEW YORK CENTRAL PARK, NY US", latitude: 40.7789, longitude: -73.9692, elevation: 42.7 },

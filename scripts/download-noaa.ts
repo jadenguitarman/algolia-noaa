@@ -37,11 +37,21 @@ const output: RawDownload = { source, dataset: "GHCND", startDate: dateRange.sta
 for (const city of cities) {
   const params = new URLSearchParams({ datasetid: "GHCND", locationid: city.locationId, limit: "1000", sortfield: "datacoverage", sortorder: "desc" });
   const stationResponse = await cachedJson<{ results?: Array<{ id: string; name: string; latitude: number; longitude: number; elevation?: number; datacoverage?: number }> }>(`data/.cache/noaa/stations_${city.name.toLowerCase().replaceAll(" ", "_")}.json`, `${base}/stations?${params}`);
-  const stationRow = stationResponse.results?.[0]; if (!stationRow) throw new Error(`No GHCND station found for ${city.name}`);
-  const station: Station = { ...stationRow };
-  const observations = await pagedData(station.id);
-  output.cities.push({ city: city.name, station, observations: observations.map((row) => ({ ...row, city: city.name, station })) });
-  console.log(`${city.name}: ${station.id}, ${observations.length} observations`);
+  const candidates = stationResponse.results ?? [];
+  const preferred = city.preferredStationIds.flatMap((id) => candidates.filter((candidate) => candidate.id === id));
+  const remaining = candidates.filter((candidate) => !city.preferredStationIds.includes(candidate.id));
+  let selected: { station: Station; observations: RawObservation[] } | undefined;
+  for (const stationRow of [...preferred, ...remaining]) {
+    const station: Station = { ...stationRow };
+    const observations = await pagedData(station.id);
+    if (observations.length > 0) {
+      selected = { station, observations };
+      break;
+    }
+  }
+  if (!selected) throw new Error(`No GHCND station with TMAX/TMIN/PRCP observations found for ${city.name}`);
+  output.cities.push({ city: city.name, station: selected.station, observations: selected.observations.map((row) => ({ ...row, city: city.name, station: selected.station })) });
+  console.log(`${city.name}: ${selected.station.id}, ${selected.observations.length} observations`);
 }
 await writeJson(resolve("data/noaa-raw.json"), output);
 console.log("Wrote data/noaa-raw.json");

@@ -7,1656 +7,4396 @@
     {
       "city": "New York City",
       "station": {
+        "elevation": 42.7,
+        "mindate": "1869-01-01",
+        "maxdate": "2026-09-18",
+        "latitude": 40.77898,
+        "name": "NY CITY CENTRAL PARK, NY US",
+        "datacoverage": 1,
         "id": "GHCND:USW00094728",
-        "name": "NEW YORK CENTRAL PARK, NY US",
-        "latitude": 40.7789,
-        "longitude": -73.9692,
-        "elevation": 42.7
+        "elevationUnit": "METERS",
+        "longitude": -73.96925
       },
       "observations": [
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0.8,
-          "rawValue": 8,
-          "rawUnit": "tenths of mm"
+          "value": 0.8
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 8.3,
-          "rawValue": 83,
-          "rawUnit": "tenths of °C"
+          "value": 8.3
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": 1.7,
-          "rawValue": 17,
-          "rawUnit": "tenths of °C"
+          "value": 1.7
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 7.8,
-          "rawValue": 78,
-          "rawUnit": "tenths of °C"
+          "value": 7.8
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 2.8,
-          "rawValue": 28,
-          "rawUnit": "tenths of °C"
+          "value": 2.8
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 8.9,
-          "rawValue": 89,
-          "rawUnit": "tenths of °C"
+          "value": 8.9
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": -1,
-          "rawValue": -10,
-          "rawUnit": "tenths of °C"
+          "value": -1
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-04-01",
           "datatype": "PRCP",
-          "value": 0.3,
-          "rawValue": 3,
-          "rawUnit": "tenths of mm"
+          "value": 0.3
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-04-01",
           "datatype": "TMAX",
-          "value": 12.2,
-          "rawValue": 122,
-          "rawUnit": "tenths of °C"
+          "value": 12.2
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-04-01",
           "datatype": "TMIN",
-          "value": 9.4,
-          "rawValue": 94,
-          "rawUnit": "tenths of °C"
+          "value": 9.4
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0.5,
-          "rawValue": 5,
-          "rawUnit": "tenths of mm"
+          "value": 0.5
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 26.7,
-          "rawValue": 267,
-          "rawUnit": "tenths of °C"
+          "value": 26.7
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 11.7,
-          "rawValue": 117,
-          "rawUnit": "tenths of °C"
+          "value": 11.7
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 28.3,
-          "rawValue": 283,
-          "rawUnit": "tenths of °C"
+          "value": 28.3
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 15.6,
-          "rawValue": 156,
-          "rawUnit": "tenths of °C"
+          "value": 15.6
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 27.2,
-          "rawValue": 272,
-          "rawUnit": "tenths of °C"
+          "value": 27.2
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 17.8,
-          "rawValue": 178,
-          "rawUnit": "tenths of °C"
+          "value": 17.8
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 35,
-          "rawValue": 350,
-          "rawUnit": "tenths of °C"
+          "value": 35
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 24.4,
-          "rawValue": 244,
-          "rawUnit": "tenths of °C"
+          "value": 24.4
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 27.2,
-          "rawValue": 272,
-          "rawUnit": "tenths of °C"
+          "value": 27.2
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 22.8,
-          "rawValue": 228,
-          "rawUnit": "tenths of °C"
+          "value": 22.8
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 20.6,
-          "rawValue": 206,
-          "rawUnit": "tenths of °C"
+          "value": 20.6
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 15.6,
-          "rawValue": 156,
-          "rawUnit": "tenths of °C"
+          "value": 15.6
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 26.1,
-          "rawValue": 261,
-          "rawUnit": "tenths of °C"
+          "value": 26.1
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 13.9,
-          "rawValue": 139,
-          "rawUnit": "tenths of °C"
+          "value": 13.9
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": 3.3,
-          "rawValue": 33,
-          "rawUnit": "tenths of °C"
+          "value": 3.3
         },
         {
           "city": "New York City",
           "station": {
+            "elevation": 42.7,
+            "mindate": "1869-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 40.77898,
+            "name": "NY CITY CENTRAL PARK, NY US",
+            "datacoverage": 1,
             "id": "GHCND:USW00094728",
-            "name": "NEW YORK CENTRAL PARK, NY US",
-            "latitude": 40.7789,
-            "longitude": -73.9692,
-            "elevation": 42.7
+            "elevationUnit": "METERS",
+            "longitude": -73.96925
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": -2.7,
-          "rawValue": -27,
-          "rawUnit": "tenths of °C"
+          "value": -2.7
         }
       ]
     },
     {
       "city": "Chicago",
       "station": {
-        "id": "GHCND:USW00094846",
-        "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-        "latitude": 41.995,
-        "longitude": -87.9336,
-        "elevation": 201.2
+        "elevation": 185.8,
+        "mindate": "1997-05-01",
+        "maxdate": "2026-09-18",
+        "latitude": 41.78412,
+        "name": "CHICAGO MIDWAY AIRPORT, IL US",
+        "datacoverage": 0.9992,
+        "id": "GHCND:USW00014819",
+        "elevationUnit": "METERS",
+        "longitude": -87.75514
       },
       "observations": [
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of °C"
+          "value": 1.1
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": -2.7,
-          "rawValue": -27,
-          "rawUnit": "tenths of °C"
+          "value": -1.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 12.8,
-          "rawValue": 128,
-          "rawUnit": "tenths of °C"
+          "value": 13.3
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 1.7,
-          "rawValue": 17,
-          "rawUnit": "tenths of °C"
+          "value": 2.2
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 7.8,
-          "rawValue": 78,
-          "rawUnit": "tenths of °C"
+          "value": 8.3
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": -0.5,
-          "rawValue": -5,
-          "rawUnit": "tenths of °C"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-04-01",
           "datatype": "PRCP",
-          "value": 11.2,
-          "rawValue": 112,
-          "rawUnit": "tenths of mm"
+          "value": 10.9
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-04-01",
           "datatype": "TMAX",
-          "value": 8.9,
-          "rawValue": 89,
-          "rawUnit": "tenths of °C"
+          "value": 10.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-04-01",
           "datatype": "TMIN",
-          "value": 5.6,
-          "rawValue": 56,
-          "rawUnit": "tenths of °C"
+          "value": 6.7
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0.3,
-          "rawValue": 3,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 23.9,
-          "rawValue": 239,
-          "rawUnit": "tenths of °C"
+          "value": 25.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 14.4,
-          "rawValue": 144,
-          "rawUnit": "tenths of °C"
+          "value": 15.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 24.1,
-          "rawValue": 241,
-          "rawUnit": "tenths of mm"
+          "value": 14.7
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 20,
-          "rawValue": 200,
-          "rawUnit": "tenths of °C"
+          "value": 20.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 15.6,
-          "rawValue": 156,
-          "rawUnit": "tenths of °C"
+          "value": 16.1
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 23.9,
-          "rawValue": 239,
-          "rawUnit": "tenths of °C"
+          "value": 23.3
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 12.2,
-          "rawValue": 122,
-          "rawUnit": "tenths of °C"
+          "value": 15.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 13,
-          "rawValue": 130,
-          "rawUnit": "tenths of mm"
+          "value": 23.6
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 31.1,
-          "rawValue": 311,
-          "rawUnit": "tenths of °C"
+          "value": 31.7
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 20.6,
-          "rawValue": 206,
-          "rawUnit": "tenths of °C"
+          "value": 21.1
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 24.4,
-          "rawValue": 244,
-          "rawUnit": "tenths of °C"
+          "value": 25
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 15.6,
-          "rawValue": 156,
-          "rawUnit": "tenths of °C"
+          "value": 17.8
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 21.1,
-          "rawValue": 211,
-          "rawUnit": "tenths of °C"
+          "value": 21.7
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 12.8,
-          "rawValue": 128,
-          "rawUnit": "tenths of °C"
+          "value": 13.3
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 12.2,
-          "rawValue": 122,
-          "rawUnit": "tenths of °C"
+          "value": 12.2
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 3.9,
-          "rawValue": 39,
-          "rawUnit": "tenths of °C"
+          "value": 3.9
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": -2.7,
-          "rawValue": -27,
-          "rawUnit": "tenths of °C"
+          "value": -2.1
         },
         {
           "city": "Chicago",
           "station": {
-            "id": "GHCND:USW00094846",
-            "name": "CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",
-            "latitude": 41.995,
-            "longitude": -87.9336,
-            "elevation": 201.2
+            "elevation": 185.8,
+            "mindate": "1997-05-01",
+            "maxdate": "2026-09-18",
+            "latitude": 41.78412,
+            "name": "CHICAGO MIDWAY AIRPORT, IL US",
+            "datacoverage": 0.9992,
+            "id": "GHCND:USW00014819",
+            "elevationUnit": "METERS",
+            "longitude": -87.75514
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": -9.9,
-          "rawValue": -99,
-          "rawUnit": "tenths of °C"
+          "value": -9.9
         }
       ]
     },
     {
       "city": "San Francisco",
       "station": {
+        "elevation": 45.7,
+        "mindate": "1921-01-01",
+        "maxdate": "2026-09-18",
+        "latitude": 37.7705,
+        "name": "SAN FRANCISCO DOWNTOWN, CA US",
+        "datacoverage": 0.9988,
         "id": "GHCND:USW00023272",
-        "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-        "latitude": 37.6197,
-        "longitude": -122.365,
-        "elevation": 4.6
+        "elevationUnit": "METERS",
+        "longitude": -122.4269
       },
       "observations": [
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-01-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-01-01",
           "datatype": "TMAX",
-          "value": 15,
-          "rawValue": 150,
-          "rawUnit": "tenths of °C"
+          "value": 15
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-01-01",
           "datatype": "TMIN",
-          "value": 8.9,
-          "rawValue": 89,
-          "rawUnit": "tenths of °C"
+          "value": 8.9
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-02-01",
           "datatype": "PRCP",
-          "value": 27.2,
-          "rawValue": 272,
-          "rawUnit": "tenths of mm"
+          "value": 27.2
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-02-01",
           "datatype": "TMAX",
-          "value": 15.6,
-          "rawValue": 156,
-          "rawUnit": "tenths of °C"
+          "value": 15.6
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-02-01",
           "datatype": "TMIN",
-          "value": 9.4,
-          "rawValue": 94,
-          "rawUnit": "tenths of °C"
+          "value": 9.4
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-03-01",
           "datatype": "PRCP",
-          "value": 29.7,
-          "rawValue": 297,
-          "rawUnit": "tenths of mm"
+          "value": 29.7
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-03-01",
           "datatype": "TMAX",
-          "value": 13.9,
-          "rawValue": 139,
-          "rawUnit": "tenths of °C"
+          "value": 13.9
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-03-01",
           "datatype": "TMIN",
-          "value": 9.4,
-          "rawValue": 94,
-          "rawUnit": "tenths of °C"
+          "value": 9.4
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-04-30",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-04-30",
           "datatype": "TMAX",
-          "value": 17.2,
-          "rawValue": 172,
-          "rawUnit": "tenths of °C"
+          "value": 17.2
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-04-30",
           "datatype": "TMIN",
-          "value": 8.9,
-          "rawValue": 89,
-          "rawUnit": "tenths of °C"
+          "value": 8.9
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-05-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-05-01",
           "datatype": "TMAX",
-          "value": 20,
-          "rawValue": 200,
-          "rawUnit": "tenths of °C"
+          "value": 20
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-05-01",
           "datatype": "TMIN",
-          "value": 9.4,
-          "rawValue": 94,
-          "rawUnit": "tenths of °C"
+          "value": 9.4
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-06-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-06-01",
           "datatype": "TMAX",
-          "value": 16.7,
-          "rawValue": 167,
-          "rawUnit": "tenths of °C"
+          "value": 16.7
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-06-01",
           "datatype": "TMIN",
-          "value": 11.1,
-          "rawValue": 111,
-          "rawUnit": "tenths of °C"
+          "value": 11.1
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-07-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-07-01",
           "datatype": "TMAX",
-          "value": 23.3,
-          "rawValue": 233,
-          "rawUnit": "tenths of °C"
+          "value": 23.3
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-07-01",
           "datatype": "TMIN",
-          "value": 12.8,
-          "rawValue": 128,
-          "rawUnit": "tenths of °C"
+          "value": 12.8
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-08-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-08-01",
           "datatype": "TMAX",
-          "value": 20.6,
-          "rawValue": 206,
-          "rawUnit": "tenths of °C"
+          "value": 20.6
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-08-01",
           "datatype": "TMIN",
-          "value": 12.2,
-          "rawValue": 122,
-          "rawUnit": "tenths of °C"
+          "value": 12.2
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-09-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-09-01",
           "datatype": "TMAX",
-          "value": 20.6,
-          "rawValue": 206,
-          "rawUnit": "tenths of °C"
+          "value": 20.6
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-09-01",
           "datatype": "TMIN",
-          "value": 13.9,
-          "rawValue": 139,
-          "rawUnit": "tenths of °C"
+          "value": 13.9
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-10-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-10-01",
           "datatype": "TMAX",
-          "value": 34.4,
-          "rawValue": 344,
-          "rawUnit": "tenths of °C"
+          "value": 34.4
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-10-01",
           "datatype": "TMIN",
-          "value": 17.8,
-          "rawValue": 178,
-          "rawUnit": "tenths of °C"
+          "value": 17.8
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-11-01",
           "datatype": "PRCP",
-          "value": 0.5,
-          "rawValue": 5,
-          "rawUnit": "tenths of mm"
+          "value": 0.5
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-11-01",
           "datatype": "TMAX",
-          "value": 17.8,
-          "rawValue": 178,
-          "rawUnit": "tenths of °C"
+          "value": 17.8
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-11-01",
           "datatype": "TMIN",
-          "value": 10,
-          "rawValue": 100,
-          "rawUnit": "tenths of °C"
+          "value": 10
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-12-01",
           "datatype": "PRCP",
-          "value": 0,
-          "rawValue": 0,
-          "rawUnit": "tenths of mm"
+          "value": 0
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-12-01",
           "datatype": "TMAX",
-          "value": 17.8,
-          "rawValue": 178,
-          "rawUnit": "tenths of °C"
+          "value": 17.8
         },
         {
           "city": "San Francisco",
           "station": {
+            "elevation": 45.7,
+            "mindate": "1921-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 37.7705,
+            "name": "SAN FRANCISCO DOWNTOWN, CA US",
+            "datacoverage": 0.9988,
             "id": "GHCND:USW00023272",
-            "name": "SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",
-            "latitude": 37.6197,
-            "longitude": -122.365,
-            "elevation": 4.6
+            "elevationUnit": "METERS",
+            "longitude": -122.4269
           },
           "date": "2024-12-01",
           "datatype": "TMIN",
-          "value": 11.1,
-          "rawValue": 111,
-          "rawUnit": "tenths of °C"
+          "value": 11.1
+        }
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "station": {
+        "elevation": 29.7,
+        "mindate": "1944-01-01",
+        "maxdate": "2026-09-19",
+        "latitude": 33.93816,
+        "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+        "datacoverage": 0.993,
+        "id": "GHCND:USW00023174",
+        "elevationUnit": "METERS",
+        "longitude": -118.3866
+      },
+      "observations": [
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 19.4
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": 10
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 63.2
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 15
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 9.4
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 0.3
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 16.7
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": 12.2
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 17.2
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 11.1
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 20
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 14.4
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 19.4
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 14.4
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 23.3
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 16.1
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 21.7
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 16.1
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 25
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 18.9
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 21.7
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 15.6
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 18.9
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 11.1
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 21.1
+        },
+        {
+          "city": "Los Angeles",
+          "station": {
+            "elevation": 29.7,
+            "mindate": "1944-01-01",
+            "maxdate": "2026-09-19",
+            "latitude": 33.93816,
+            "name": "LOS ANGELES INTERNATIONAL AIRPORT, CA US",
+            "datacoverage": 0.993,
+            "id": "GHCND:USW00023174",
+            "elevationUnit": "METERS",
+            "longitude": -118.3866
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": 11.7
+        }
+      ]
+    },
+    {
+      "city": "Boston",
+      "station": {
+        "elevation": 3.2,
+        "mindate": "1936-01-01",
+        "maxdate": "2026-09-18",
+        "latitude": 42.36057,
+        "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+        "datacoverage": 1,
+        "id": "GHCND:USW00014739",
+        "elevationUnit": "METERS",
+        "longitude": -71.00975
+      },
+      "observations": [
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 3.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": -2.7
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 5.6
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 1.1
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 6.1
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": -4.9
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 10
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 3.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 1.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 10
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 7.2
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 27.8
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 13.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 4.1
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 24.4
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 17.8
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 35
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 23.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 28.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 21.1
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 18.9
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 13.9
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 26.1
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 12.8
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 3.3
+        },
+        {
+          "city": "Boston",
+          "station": {
+            "elevation": 3.2,
+            "mindate": "1936-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 42.36057,
+            "name": "BOSTON LOGAN INTERNATIONAL AIRPORT, MA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00014739",
+            "elevationUnit": "METERS",
+            "longitude": -71.00975
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": -1.6
+        }
+      ]
+    },
+    {
+      "city": "Seattle",
+      "station": {
+        "elevation": 112.5,
+        "mindate": "1948-01-01",
+        "maxdate": "2026-09-18",
+        "latitude": 47.44467,
+        "name": "SEATTLE TACOMA AIRPORT, WA US",
+        "datacoverage": 1,
+        "id": "GHCND:USW00024233",
+        "elevationUnit": "METERS",
+        "longitude": -122.31442
+      },
+      "observations": [
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 8.3
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": 1.1
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 2.3
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 14.4
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": 8.3
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 3.6
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 6.1
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": 1.7
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 16.1
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 6.1
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 14.4
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 4.4
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 17.2
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 12.2
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 24.4
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 15
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 30.6
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 16.7
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 27.8
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 16.1
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 20
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 7.8
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 15
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 10.6
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": 7.2
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 8.9
+        },
+        {
+          "city": "Seattle",
+          "station": {
+            "elevation": 112.5,
+            "mindate": "1948-01-01",
+            "maxdate": "2026-09-18",
+            "latitude": 47.44467,
+            "name": "SEATTLE TACOMA AIRPORT, WA US",
+            "datacoverage": 1,
+            "id": "GHCND:USW00024233",
+            "elevationUnit": "METERS",
+            "longitude": -122.31442
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": 0.6
+        }
+      ]
+    },
+    {
+      "city": "Denver",
+      "station": {
+        "elevation": 1610.6,
+        "mindate": "1940-05-15",
+        "maxdate": "2026-08-31",
+        "latitude": 39.76746,
+        "name": "DENVER CENTRAL PARK, CO US",
+        "datacoverage": 0.9106,
+        "id": "GHCND:USW00023062",
+        "elevationUnit": "METERS",
+        "longitude": -104.86948
+      },
+      "observations": [
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-01-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-01-01",
+          "datatype": "TMAX",
+          "value": 4.4
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-01-01",
+          "datatype": "TMIN",
+          "value": -8.3
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-02-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-02-01",
+          "datatype": "TMAX",
+          "value": 15.6
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-02-01",
+          "datatype": "TMIN",
+          "value": -1.7
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-03-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-03-01",
+          "datatype": "TMAX",
+          "value": 17.2
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-03-01",
+          "datatype": "TMIN",
+          "value": -3.9
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-04-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-04-01",
+          "datatype": "TMAX",
+          "value": 13.9
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-04-01",
+          "datatype": "TMIN",
+          "value": 1.7
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-05-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-05-01",
+          "datatype": "TMAX",
+          "value": 21.1
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-05-01",
+          "datatype": "TMIN",
+          "value": 6.7
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-06-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-06-01",
+          "datatype": "TMAX",
+          "value": 21.7
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-06-01",
+          "datatype": "TMIN",
+          "value": 10
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-07-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-07-01",
+          "datatype": "TMAX",
+          "value": 31.1
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-07-01",
+          "datatype": "TMIN",
+          "value": 17.2
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-08-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-08-01",
+          "datatype": "TMAX",
+          "value": 35
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-08-01",
+          "datatype": "TMIN",
+          "value": 15
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-09-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-09-01",
+          "datatype": "TMAX",
+          "value": 31.1
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-09-01",
+          "datatype": "TMIN",
+          "value": 11.1
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-10-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-10-01",
+          "datatype": "TMAX",
+          "value": 29.4
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-10-01",
+          "datatype": "TMIN",
+          "value": 4.4
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-11-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-11-01",
+          "datatype": "TMAX",
+          "value": 15.6
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-11-01",
+          "datatype": "TMIN",
+          "value": -3.9
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-12-01",
+          "datatype": "PRCP",
+          "value": 0
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-12-01",
+          "datatype": "TMAX",
+          "value": 12.2
+        },
+        {
+          "city": "Denver",
+          "station": {
+            "elevation": 1610.6,
+            "mindate": "1940-05-15",
+            "maxdate": "2026-08-31",
+            "latitude": 39.76746,
+            "name": "DENVER CENTRAL PARK, CO US",
+            "datacoverage": 0.9106,
+            "id": "GHCND:USW00023062",
+            "elevationUnit": "METERS",
+            "longitude": -104.86948
+          },
+          "date": "2024-12-01",
+          "datatype": "TMIN",
+          "value": -6.1
         }
       ]
     }

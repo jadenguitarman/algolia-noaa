@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 
-export type City = { name: string; locationId: string; aliases: string[] };
+export type City = { name: string; locationId: string; aliases: string[]; preferredStationIds: string[] };
 export type Station = { id: string; name: string; latitude: number; longitude: number; elevation?: number; datacoverage?: number };
 export type RawObservation = { city: string; station: Station; date: string; datatype: string; value: number; rawValue?: number; rawUnit?: string };
 export type RawDownload = { source: string; dataset: string; startDate: string; endDate: string; cities: Array<{ city: string; station: Station; observations: RawObservation[] }> };
@@ -10,9 +10,13 @@ export type NormalizedRecord = {
 };
 
 export const cities: City[] = [
-  { name: "New York City", locationId: "FIPS:36061", aliases: ["New York", "NYC", "Manhattan"] },
-  { name: "Chicago", locationId: "FIPS:17031", aliases: [] },
-  { name: "San Francisco", locationId: "FIPS:06075", aliases: ["SF"] },
+  { name: "New York City", locationId: "FIPS:36061", aliases: ["New York", "NYC", "Manhattan"], preferredStationIds: ["GHCND:USW00094728"] },
+  { name: "Chicago", locationId: "FIPS:17031", aliases: [], preferredStationIds: ["GHCND:USW00014819", "GHCND:USW00094846"] },
+  { name: "San Francisco", locationId: "FIPS:06075", aliases: ["SF"], preferredStationIds: ["GHCND:USW00023272"] },
+  { name: "Los Angeles", locationId: "FIPS:06037", aliases: ["LA"], preferredStationIds: ["GHCND:USW00023174"] },
+  { name: "Boston", locationId: "FIPS:25025", aliases: [], preferredStationIds: ["GHCND:USW00014739"] },
+  { name: "Seattle", locationId: "FIPS:53033", aliases: [], preferredStationIds: ["GHCND:USW00024233"] },
+  { name: "Denver", locationId: "FIPS:08031", aliases: [], preferredStationIds: ["GHCND:USW00023062"] },
 ];
 export const dateRange = { start: "2024-01-01", end: "2024-12-31" };
 export const source = "NOAA Climate Data Online (CDO) API · GHCND daily summaries";
