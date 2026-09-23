@@ -94,7 +94,6 @@ function AuthenticatedChat() {
           agentId={agentId!}
           layoutComponent={ChatInlineLayout}
           requestOptions={{ headers: { "x-algolia-secure-user-token": userToken } }}
-          context={{ scope: "Historical GHCND observations only", indexName, coverage: JSON.stringify(coverage) }}
           tools={{ [SearchIndexToolType]: { layoutComponent: WeatherResultsLayout } }}
           messagesProps={{ emptyComponent: ChatEmptyState }}
         />
