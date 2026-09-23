@@ -25,8 +25,15 @@ type WeatherRecord = {
 
 type WeatherToolLayoutProps = {
   context: {
-    message?: { output?: unknown };
+    message?: { output?: unknown; toolCallId?: string; type?: string };
+    messages?: unknown[];
   };
+};
+
+type SearchToolPart = {
+  output?: unknown;
+  toolCallId?: string;
+  type?: string;
 };
 
 type SearchToolOutput = {
@@ -45,6 +52,48 @@ function isWeatherRecord(value: unknown): value is WeatherRecord {
 function getOutput(value: unknown): SearchToolOutput | null {
   if (!isRecord(value)) return null;
   return value as SearchToolOutput;
+}
+
+function isSearchToolPart(value: unknown): value is SearchToolPart {
+  if (!isRecord(value) || typeof value.type !== "string") return false;
+  return value.type === "tool-algolia_search_index" || value.type.startsWith("tool-algolia_search_index_");
+}
+
+function getConsecutiveSearchParts(messages: unknown[] | undefined, currentMessage: SearchToolPart) {
+  if (!messages) return [currentMessage];
+  const isCurrent = (candidate: SearchToolPart) => candidate === currentMessage || Boolean(currentMessage.toolCallId && candidate.toolCallId === currentMessage.toolCallId);
+
+  for (const message of messages) {
+    if (!isRecord(message) || !Array.isArray(message.parts)) continue;
+    let run: SearchToolPart[] = [];
+    for (const part of message.parts) {
+      if (isSearchToolPart(part)) {
+        run.push(part);
+        continue;
+      }
+      if (run.some(isCurrent)) return run;
+      run = [];
+    }
+    if (run.some(isCurrent)) return run;
+  }
+
+  return [currentMessage];
+}
+
+function getUniqueHits(parts: SearchToolPart[]) {
+  const seen = new Set<string>();
+  const uniqueHits: WeatherRecord[] = [];
+  parts.forEach((part) => {
+    const output = getOutput(part.output);
+    const hits = Array.isArray(output?.hits) ? output.hits.filter(isWeatherRecord) : [];
+    hits.forEach((record) => {
+      const key = record.objectID || JSON.stringify([record.stationId, record.date, record.metricCode || record.metric, record.value, record.unit, record.rawValue, record.rawUnit, record.latitude, record.longitude]);
+      if (seen.has(key)) return;
+      seen.add(key);
+      uniqueHits.push(record);
+    });
+  });
+  return uniqueHits;
 }
 
 function formatNumber(value: number | undefined, maximumFractionDigits = 3) {
@@ -92,7 +141,7 @@ function WeatherRecordCard({ record, index }: { record: WeatherRecord; index: nu
   );
 }
 
-function WeatherResultsDialog({ hits, onClose }: { hits: WeatherRecord[]; onClose: () => void }) {
+function WeatherResultsDialog({ hits, retrievalCount, onClose }: { hits: WeatherRecord[]; retrievalCount: number; onClose: () => void }) {
   React.useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") onClose();
@@ -121,7 +170,7 @@ function WeatherResultsDialog({ hits, onClose }: { hits: WeatherRecord[]; onClos
           <div>
             <span className="weather-results-dialog__eyebrow">NOAA observations</span>
             <h2 id="weather-results-title">Retrieved weather data</h2>
-            <p>{hits.length} record{hits.length === 1 ? "" : "s"} returned by the indexed GHCND dataset.</p>
+            <p>{hits.length} unique record{hits.length === 1 ? "" : "s"} combined from {retrievalCount} search{retrievalCount === 1 ? "" : "es"}.</p>
           </div>
           <button type="button" className="weather-results-dialog__close" onClick={onClose} aria-label="Close weather data">
             <span aria-hidden="true">×</span>
@@ -143,30 +192,39 @@ function WeatherResultsDialog({ hits, onClose }: { hits: WeatherRecord[]; onClos
 }
 
 export function WeatherResultsLayout({ context }: WeatherToolLayoutProps) {
-  const output = getOutput(context.message?.output);
-  const hits = Array.isArray(output?.hits) ? output.hits.filter(isWeatherRecord) : [];
+  const currentMessage = (context.message || {}) as SearchToolPart;
+  const parts = getConsecutiveSearchParts(context.messages, currentMessage);
+  const hits = getUniqueHits(parts);
   const [isOpen, setIsOpen] = React.useState(false);
+  const batchKey = parts.map((part, index) => part.toolCallId || `${part.type || "search"}-${index}`).join(",");
+  const isComplete = parts.every((part) => Boolean(getOutput(part.output)));
+  const isPrimary = parts[0] === currentMessage || Boolean(currentMessage.toolCallId && parts[0]?.toolCallId === currentMessage.toolCallId);
 
   React.useEffect(() => {
-    if (hits.length === 0) setIsOpen(false);
-  }, [hits.length]);
+    setIsOpen(false);
+  }, [batchKey]);
 
-  const isComplete = Boolean(output);
-  const resultCount = typeof output?.nbHits === "number" ? output.nbHits : hits.length;
+  if (!isPrimary) return <></>;
+
+  const retrievalLabel = !isComplete
+    ? "Retrieving weather data…"
+    : hits.length === 0
+      ? "No matching weather data."
+      : `Retrieved weather data${parts.length > 1 ? ` ${parts.length} times` : ""}.`;
 
   return (
     <>
-      <div className={`weather-results-summary${isComplete ? " weather-results-summary--complete" : ""}`} aria-live="polite">
+      <div className={`weather-results-summary${isComplete ? " weather-results-summary--complete" : ""}${isComplete && hits.length === 0 ? " weather-results-summary--empty" : ""}`} aria-live="polite">
         <span className="weather-results-summary__dot" aria-hidden="true" />
-        <span>{isComplete ? "Retrieved weather data." : "Retrieving weather data…"}</span>
+        <span>{retrievalLabel}</span>
         {isComplete && hits.length > 0 && (
           <button type="button" className="weather-results-summary__button" onClick={() => setIsOpen(true)}>
             See results<span aria-hidden="true"> ↗</span>
-            <span className="sr-only"> ({resultCount} records)</span>
+            <span className="sr-only"> ({hits.length} records)</span>
           </button>
         )}
       </div>
-      {isOpen && <WeatherResultsDialog hits={hits} onClose={() => setIsOpen(false)} />}
+      {isOpen && <WeatherResultsDialog hits={hits} retrievalCount={parts.length} onClose={() => setIsOpen(false)} />}
     </>
   );
 }
